@@ -1,0 +1,66 @@
+/**
+ * @package		Joomla Bamboo Zen Grid Framework
+ * @Type        Core CSS
+ * @version		Joomla 1.6 v1.1
+ * @author		Joomlabamboo http://www.joomlabamboo.com
+ * @copyright 	Copyright (C) 2007 - 2010 Joomla Bamboo
+ * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+ 
+/* @group Reset */
+* 
+{font-weight: normal;font-family: inherit;	font-style: inherit; font-size: 100%; outline: 0;padding: 0;margin: 0;vertical-align: top;text-align: left} 
+img, a {border: none}
+tr td p {margin: 0}
+fieldset.input,fieldset {border: none}
+body, html {height: 100%;width: 100%;margin: 0;padding: 0}
+table {width: 100%;clear: both}
+ul,ol,ul.menu {margin: 35px 0 10px 0px;padding: 0}
+ul li{padding: 4px 0;list-style-type: disc;margin: 0 0 0 18px}
+ol li {padding: 4px 0;margin: 0 0 0 16px;list-style-type: decimal}
+/* @end */
+
+/* Body
+-------------------------------------------------------------- */
+body {background: #fff; font-family: Helvetica, Arial, sans-serif, Verdana; line-height: 1.8em; color: #444;width: 100%;text-align: left}
+
+   
+/* Items to hide
+-------------------------------------------------------------- */
+#nav,#togglemenu,#search,#zenpanel,#top ul li,.sidebar,#bottom,#todaydate,#topwrapper,#headerwrap,searchtogglemobile,#mobilemodule,#toTop,#footer,.pagenav {
+   display: none !important;
+   }
+
+/* Main Container
+-------------------------------------------------------------- */
+.container {
+   width: auto;
+   padding: 0;
+   border: 0;
+   float: none !important;
+   color: black;
+   background: transparent none;
+   }
+   
+/* Main Content
+-------------------------------------------------------------- */
+div#mainContent {
+   padding-top: 1em;
+   border-top: 1px solid #930;
+   }
+
+
+/* Links and other styles
+-------------------------------------------------------------- */
+a:link, a:visited {
+   color: #520 !important;
+   background: transparent;
+   font-weight: bold;
+   text-decoration: underline;
+   }
+   
+  .floatleft {
+	float: left;margin:0 20px 20px 0;
+}
+   
+   

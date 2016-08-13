@@ -1,0 +1,844 @@
+/* @override 
+	http://localhost:8888/k2/intrepid/templates/jbintrepid/html/com_k2/media/css/zenkit.css
+	http://localhost:8888/base/joomla15/templates/jbintrepid/html/com_k2/media/css/zenkit.css
+	http://localhost:8888/base/joomla25/templates/jbintrepid/html/com_k2/media/css/zenkit.css
+*/
+
+/*------------------------------------------------------------------
+Template:	Zenkit
+Version:	Joomla 1.5 / Joomla 2.5
+Zen Grid: 	v1.0
+Copyright:	Joomlabamboo
+Created:	April 2012
+---------------------------------------------------*/
+
+/* Primary id for all layouts
+---------------------------------------------------*/
+#zenkit {position: relative;clear: both}
+img {max-width: 100%;height: auto;width: auto\9; /* ie8 */}
+
+/* Reset Lists
+---------------------------------------------------*/
+#zenkit ul,#zenkit ul li {
+list-style-type: none; margin: 0;padding:0 ;
+}
+
+#zenkit li.grid_one,#zenkit li.grid_two,#zenkit li.grid_three,#zenkit li.grid_four,#zenkit li.grid_five,#zenkit li.grid_six,#zenkit li.grid_seven,#zenkit li.grid_eight,#zenkit li.grid_nine,#zenkit li.grid_ten,#zenkit li.grid_eleven,#zenkit li.grid_twelve,#zenkit li.grid_1,#zenkit li.grid_2,#zenkit li.grid_3,#zenkit li.grid_4 {
+margin-right: 3.8% !important;
+}
+
+#zenkit li.zenlast {
+margin: 0;
+}
+ 
+ 
+
+/* Some general layout blocks and dividers
+---------------------------------------------------*/
+#zenkit .divider {height: 1px;float: left;width: 100%;margin: 10px 0}
+#zenkit .divider,#zenkit .zenblock {border-bottom: 1px solid #ddd}
+#zenkit .zenblock {padding: 10px 0;margin: 10px 0}
+
+
+/* Edit Icons
+---------------------------------------------------*/
+#zenkit .editlink
+{
+	text-align:right;
+	float:right;
+	font-size: 90%;
+}
+
+#zenkit .editlink a {
+	background: transparent url(../images/system/edit.png) no-repeat scroll 0 0;
+	height: 18px;
+	width: 18px;
+	overflow: hidden;
+	text-indent: 100%;
+	display: block;
+	text-align: left;
+}
+
+body.contentpane #zenkit
+{
+	padding:16px
+}
+
+
+/* Used in the popup box
+---------------------------------------------------*/
+#zenkit .clearList
+{
+	display:none;
+	float:none;
+	clear:both
+}
+
+
+
+/* K2 Pagination
+---------------------------------------------------*/
+#zenkit div.k2Pagination
+{
+	text-align:center;
+	color:#999;
+	margin:24px 0 4px
+}
+
+
+
+/* Feed Icon
+---------------------------------------------------*/
+#zenkit .k2FeedIcon a, .k2FeedIcon a:hover {
+	display: block;
+	float: right;
+	width: 16px;
+	height: 16px;
+	background: url(../images/fugue/feed.png) no-repeat 50% 50%;
+	margin: 10px 10px 0 0;
+	padding: 0;
+}
+
+#zenkit .k2ItemList {
+	width: 100%;
+	float: left;
+}
+
+/* Some general styling and spacing
+---------------------------------------------------*/
+#zenkit .catItemView{width: 100%;float: left}
+#zenkit .groupLeading,.groupPrimary{margin-bottom: 30px}
+#zenkit .groupPrimary.accordion {margin: 0}
+#zenkit #k2ItemListSecondary {margin-top: 40px}
+
+/* Styles also found in Zen Grid Framework templates
+---------------------------------------------------*/
+#zenkit div.jbMeta,#zenkit .zenmeta {float: left;width: 100%;position: relative} 
+#zenkit div.buttons {float: right;text-align: right}
+#zenkit .zenkitdate {font-size: 90%;color: #aaa;font-style: italic;display: block;float: none}
+#zenkit .contentheading {border-bottom: 1px solid #ddd;padding-bottom: 5px}
+
+
+
+/* Author Tag
+---------------------------------------------------*/
+#zenkit .zenauthor {font-size: 90%;clear: both}
+#zenkit .zenauthor span {font-weight: bold}
+#zenkit div.authorBlock {padding: 30px 0 0;float: left;width: 100%}
+
+
+
+/* Category tag
+---------------------------------------------------*/
+#zenkit .zencategories span {font-weight: bold}
+
+
+
+/* Item Template
+---------------------------------------------------*/
+.itemView {float: left;width: 100%}
+
+
+
+/* Meta / Toolbar 
+---------------------------------------------------*/
+#zenkit .buttons {
+width: 20%;position: absolute;right: 0;font-size: 90%;top: 0;
+}
+
+#zenkit .buttons ul {
+width: 100%;
+}
+#zenkit .groupPrimary .buttons {
+position: relative;float: left;
+}
+
+#zenkit .buttons li {
+list-style-type: none;margin: 0;float: none;margin-right: 4px;
+}
+
+#zenkit .buttons a span {
+float: left
+}
+
+a.commentsLink span {
+margin-right: 4px;
+}
+
+#zenkit .buttons span span {
+margin-right: 4px;
+}
+
+/* Used to position the buttons etc on multi column layouts
+---------------------------------------------------*/
+#zenkit .grid_2 .buttons,#zenkit .grid_3 .buttons,#zenkit .grid_4 .buttons  {
+position: relative;float: left;
+}
+
+
+/* Print icons etc
+---------------------------------------------------*/
+#zenkit .printLink,
+#zenkit .emailLink,
+#zenkit .videoLink,
+#zenkit .imageGalleryLink {
+	background: url(../images/system/printButton.png) no-repeat scroll 0 0;
+	text-indent: -9999em;
+	width: 20px;
+	height: 20px;
+	display: block;
+}
+
+#zenkit .printLink {float: right}
+
+#zenkit .jbMeta .resize {margin-right: 50px;}
+
+#zenkit .emailLink {
+	background: transparent url(../images/system/emailButton.png) no-repeat scroll 0 0;
+	float: right;
+}
+
+#zenkit .k2Toolbar .k2VideoLink {
+	background: transparent url(http://www.mictlansurf.com/templates/jbintrepid/html/com_k2/media/images/system/videoButton.png) no-repeat scroll 0 0;
+}
+
+#zenkit .k2Toolbar .k2ImageGalleryLink {
+	background: transparent url(http://www.mictlansurf.com/templates/jbintrepid/html/com_k2/media/images/system/fotoButton.png) no-repeat scroll 0 0;
+}
+
+
+#zenkit .largerFontSize {font-size: 1.4em;line-height: 1.6em}
+
+
+
+
+
+/* Rating Block
+---------------------------------------------------*/
+#zenkit .itemRatingForm {display:block;vertical-align:middle;line-height:25px;float:left;}
+
+#zenkit .itemRatingLog {font-size:11px;margin:0;padding:0 0 0 4px;float:left;}
+
+#zenkit .itemRatingForm .formLogLoading {background:url(../images/system/loading.gif) no-repeat left center;height:25px;padding:0 0 0 20px;}
+
+#zenkit .itemRatingList,
+#zenkit .itemRatingList a:hover,
+#zenkit .itemRatingList .itemCurrentRating {background:transparent url(../images/system/transparent_star.gif) left -1000px repeat-x;}
+
+#zenkit .itemRatingList {position:relative;float:left;width:125px;height:25px;overflow:hidden;list-style:none;margin:0;padding:0;background-position:left top;}
+
+#zenkit .itemRatingList li {display:inline;background:none;padding:0;}
+
+#zenkit .itemRatingList a,
+#zenkit .itemRatingList .itemCurrentRating {position:absolute;top:0;left:0;text-indent:-1000px;height:25px;line-height:25px;outline:none;overflow:hidden;border:none;cursor:pointer;}
+
+#zenkit .itemRatingList a:hover {background-position:left bottom;}
+#zenkit .itemRatingList a.one-star {width:20%;z-index:6;}
+#zenkit .itemRatingList a.two-stars {width:40%;z-index:5;}
+#zenkit .itemRatingList a.three-stars {width:60%;z-index:4;}
+#zenkit .itemRatingList a.four-stars {width:80%;z-index:3;}
+#zenkit .itemRatingList a.five-stars {width:100%;z-index:2;}
+#zenkit .itemRatingList .itemCurrentRating {z-index:1;background-position:0 center;margin:0;padding:0;}
+
+#zenkit .itemRatingBlock span,
+#zenkit .itemRatingLog {
+color: #ccc;font-style: italic;font-size: 90%;line-height: 2.4;margin-left: 10px;
+}
+
+
+
+
+/* Item image
+---------------------------------------------------*/
+#zenkit span.itemImage img {
+}
+
+#zenkit span.imagecaption {
+display: block;padding: 8px;background: #eee;border-radius:4px
+}
+
+#zenkit span.imagecredits {
+font-size: 90%;font-style: italic;display: block;margin: 10px 0;
+}
+
+
+
+
+
+/* Video Block
+---------------------------------------------------*/
+#zenkit .zenvideo {
+float:left;
+width:100%
+}
+
+
+#zenkit video {
+width:100% !important;
+height:auto !important
+}
+
+#zenkit .video-container {
+position:relative;
+padding-bottom:56.25%;
+padding-top:0;
+height:0;
+overflow:hidden
+}
+
+#zenkit .video-container iframe,.video-container object,.video-container embed {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:94%
+}
+
+
+
+/* Content
+---------------------------------------------------*/
+#zenkit .itembody,
+#zenkit .jbIntroText,
+#zenkit .itemIntroText,
+#zenkit .itemFullText 
+{clear: both}
+
+#zenkit .itemFullText {margin: 20px 0;float: left;width: 100%}
+#zenkit h2 span sup {font-size: 30%}
+
+
+
+/* Social
+---------------------------------------------------*/
+#zenkit .socialSharing {overflow: hidden}
+
+
+
+/* Author Block
+---------------------------------------------------*/
+#zenkit .authorLatest ul{margin: 0}
+#zenkit .authorLatest ul li {list-style-type: none;padding: 4px 0;border-bottom: 1px solid #ddd;border-top: 1px solid #fff}
+#zenkit .authorLatest ul li:last-child {border-bottom: 0}
+#zenkit .authorLatest ul li:first-child {border-top: 0}
+
+ 
+
+
+
+/* Comment Form
+---------------------------------------------------*/
+#zenkit textarea#commentText {width: 91%} 
+#zenkit .commentsForm label,.commentsForm .inputbox{display: block;width: 80%}
+#zenkit .commentsForm .inputbox {margin-bottom: 20px}
+#zenkit input#submitCommentButton {margin: 20px 0}
+
+
+
+
+/* Comments
+---------------------------------------------------*/
+#zenkit img.commentavatar {padding: 4px;border: 1px solid #ddd;margin: 0 20px 20px 0;float: left}
+#zenkit span.commentDate,span.commentAuthorName,span.commentLink  {font-size: 90%;display: block;font-style: italic;color: #999}
+
+#zenkit ul.commentsList .grid_three {margin-top: 20px}
+#zenkit ul.commentsList p {margin: 20px 0 40px}
+
+#zenkit .zenbutton input,
+#zenkit .zenbutton span a {border: 1px solid #ddd;background: #efefef;padding: 8px 10px;border-radius:4px;cursor: pointer
+}
+
+
+
+/* Tags
+---------------------------------------------------*/
+#zenkit ul.tags {margin: 0}
+#zenkit ul.tags li {list-style-type: none;margin: 0 20px 0 0;float: left}
+#zenkit .tagsBlock span {font-weight: bold}
+
+
+
+/* Avatar Images
+---------------------------------------------------*/
+#zenkit img.authorAvatar {
+padding: 4px;border: 1px solid #ddd;background: #fff;margin-bottom: 20px;
+}
+
+.blogsidebar .authoravatar {float:right;padding:0;margin:0;width:70px;}
+
+
+
+/* K2 Navigation
+---------------------------------------------------*/
+#zenkit #k2Links ul {margin: 0}
+#zenkit #k2Links ul li {list-style-type: none;padding: 4px 0;margin: 0;border-bottom: 1px solid #ddd}
+#zenkit #k2Links ul li a {display: block}
+
+
+
+
+/* Category Blocks
+---------------------------------------------------*/
+#zenkit .k2CategoriesBlock img {
+float: left;;
+}
+
+#zenkit .categoryinner{
+padding: 10px;background: #fff;border: 1px solid #eee;margin-bottom: 30px;border-radius:4px;
+}
+
+
+/* Userblock
+---------------------------------------------------*/
+#zenkit .userBlock {
+margin-bottom: 30px;
+}
+
+
+/* Latest Items User
+---------------------------------------------------*/
+#zenkit .latestItemsUser {margin-bottom: 30px}
+#zenkit .latestItemsUser img,
+#zenkit .userBlock img {padding: 4px;float: left;margin-right: 20px;background: #fff}
+
+
+/* Read more button
+---------------------------------------------------*/
+#zenkit .readMore a {float: right;padding: 2px 8px;-webkit-border-radius: 2px;
+-moz-border-radius:2px;border-radius: 2px;color: #999;
+}
+
+
+/* Styling for tabs and Masonry items
+---------------------------------------------------*/
+#zenkit ul.zentabs {margin-bottom: 30px;float: left;width: 100%;border-bottom: 1px solid #eee}
+#zenkit ul.zentabs li {
+padding: 0;margin: 0 20px 0 0;
+}
+#zenkit ul.zentabs li a {float: left;margin: 0;list-style-type: none;padding: 8px 20px}
+
+
+/* Active item for Masonry Triggers
+---------------------------------------------------*/
+#zenkit ul.zentabs li a.active {background: #eee;
+background: #eee;-webkit-border-top-left-radius: 4px;
+-webkit-border-top-right-radius: 4px;
+-moz-border-radius-topleft: 4px;
+-moz-border-radius-topright: 4px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+color: #333
+}
+
+
+/* Active item for Tabs
+---------------------------------------------------*/
+#zenkit ul.zentabs li.active a {background: #eee;
+background: #eee;-webkit-border-top-left-radius: 4px;
+-webkit-border-top-right-radius: 4px;
+-moz-border-radius-topleft: 4px;
+-moz-border-radius-topright: 4px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+color: #333
+}
+
+
+
+
+/* Masonry
+---------------------------------------------------*/
+#zenkit .isotope,
+#zenkit .isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+#zenkit .isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+#zenkit .isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:         top, left, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+#zenkit .isotope.no-transition,
+#zenkit .isotope.no-transition .isotope-item,
+#zenkit .isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s; 
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+
+/* Accordion Styling
+---------------------------------------------------*/
+#zenkit.accordion .groupPrimary h2 
+{border-bottom: 1px solid #ddd;border-top: 1px solid #fff;margin: 0;padding: 10px 0 10px 8px;line-height: 1.25;font-size: 1.3em;}
+
+
+#zenkit .groupPrimary.accordion  h2 {
+background: url(../images/accordion.png) no-repeat left -59px;;cursor: pointer;padding-left: 20px;
+}
+
+#zenkit .groupPrimary.accordion h2.contentheading.open {
+background-position: left 13px;
+} 
+
+
+
+/* Blog Template
+---------------------------------------------------*/
+#zenkit .blog .buttons,#zenkit .blog .hits {
+position: relative;float: left;
+}
+
+#zenkit .blogsidebar {
+float: left;width: 100%;
+}
+#zenkit .blogsidebar .divider {
+margin: 4px 0 0;
+}
+
+#zenkit .catItemView .blogsidebar .divider {
+margin: 4px 0 20px;
+}
+
+
+#zenkit .blogsidebar .itemRatingBlock {
+padding-top: 10px;
+}
+
+#zenkit.blog .buttons  {
+position: relative;float: left;text-align: left;clear: both;width: 100%;
+}
+#zenkit.blog .buttons ul {
+margin: 0;float: left;width: 100%
+}
+#zenkit.blog .buttons li,#zenkit.blog .buttons li.resize,#zenkit.blog a.commentsLink {
+display: block;
+}
+
+#zenkit .blogbuttons {
+position: relative;margin-top: -5px;
+}
+#zenkit .blogbuttons ul li {
+list-style-type: none;background: none;float: left;margin-right: 4px
+}
+
+#zenkit.itemView .blogsidebar {margin-top: 8px}
+
+#zenkit.itemView .blogsidebar img.authorAvatar {
+margin-top: 20px
+}
+
+#zenkit .blogsidebar blockquote {
+padding: 10px;background: #ededed;border-radius:4px;margin: 10px 0 30px;font-size: 1em;
+}
+
+#zenkit .blogsidebar .zencategories {
+margin-bottom: 20px;display: block;
+}
+
+#zenkit .blogsidebar .zencategories span {
+display: block;margin: 10px 0 0
+}
+
+#zenkit .blogsidebar .buttons {
+text-align: right !important;
+margin:0;
+}
+
+#zenkit .blogsidebar .tagsBlock {
+clear: both;margin: 20px 0;float: left;width: 100%;
+}
+
+
+
+/* Magazine Layout
+---------------------------------------------------*/
+#zenkit.magazine {}
+#zenkit.magazine .groupLeading {}
+#zenkit.magazine .groupSecondary{margin-top: 30px}
+#zenkit.magazine .groupPrimary .buttons,
+#zenkit.magazine2 .groupPrimary .buttons{float: left;
+position: relative;
+}
+
+/* Slideshow
+---------------------------------------------------*/
+#zenkit .flexslider  { 
+position: relative 
+}
+
+
+/* Some Media Queries 
+---------------------------------------------------*/
+@media only screen and (max-width: 520px) {
+	#zenkit ul.commentsList .grid_three {width: 22.05%}
+	#zenkit ul.commentsList .grid_nine {width: 74.05%;margin: 0}
+	#zenkit ul.commentsList p {margin-bottom: 10px}
+	#zenkit textarea#commentText {width: 92%}
+}
+
+
+/* Intrepid Styles
+-----------------------------------------------------------------------------*/
+
+/* Zenkit
+-----------------------------------------------------------------------------*/
+
+#zenkit.userView,
+#zenkit .userBlock {
+    margin-top: 20px
+}
+
+#zenkit .k2category,
+#zenkit .itemListCategory {
+margin-top: 20px;
+}
+
+#zenkit .accordion.groupPrimary {
+    background: none;
+    padding: 0;
+}
+
+#zenkit .buttons,
+#zenkit .grid_3 .buttons,
+#zenkit .grid_4 .buttons,
+#zenkit .grid_5 .buttons,
+#zenkit .grid_6 .buttons {
+    left: 0;
+    right: auto !important;
+    text-align: left !important;
+    width: 100%;
+}
+
+#zenkit .zenblock {
+    height: auto
+}
+
+#zenkit .readMore a {
+    float: right;
+    padding: 0 !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+    color: #999;
+}
+
+.jbintrotext {
+    margin-left: -3.2%;
+    padding-left: 3%;
+    padding-right: 4%;
+    padding-top: 20px;
+    border-top: 1px solid #fff;
+}
+
+#zenkit .jbintrotext {
+    width: 100%;
+    margin: 30px 0 0 0;
+    padding: 0;
+    border-top: 0;
+}
+
+#zenkit .jbMeta {
+    background: none;
+    margin-bottom: 0;
+}
+
+#zenkit .groupLeading {
+    background-color: transparent;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-left: -3.4%;
+    padding-left: 3%;
+    padding-right: 4%;
+}
+
+#zenkit #k2ItemListSecondary {
+    margin-top: 0
+}
+
+#zenkit .divider,
+#zenkit .zenblock {
+    border: 0
+}
+
+/* Zenkit Magazine
+-----------------------------------------------------------------------------*/
+
+#zenkit .accordion h2 {
+    width: 90%
+}
+
+/* Zenkit Blog
+-----------------------------------------------------------------------------*/
+
+#zenkit .blogsidebar {
+    margin-top: 15px;
+    text-align:right;
+}
+
+#zenkit .blogsidebar .divider,
+#zenkit .blogsidebar .zenblock {
+    background: none;
+    border: 0;
+    padding-bottom:20px;
+}
+
+#zenkit .zenblock {
+    background-color: transparent;
+    margin-left: -3.4%;
+    padding: 10px 4% 40px 4%;
+}
+
+#zenkit .blog .contentheading {
+    margin-bottom: 20px
+}
+
+#zenkit .blogsidebar .zenkitdate {
+	background:#333333;
+    color: #ffffff;
+	padding: 10px;
+	border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	-webkit-border-radius: 0 0 4px 4px;
+	-pie-border-radius: 0 0 4px 4px;
+	font-weight: bold;
+	font-size:100%;
+	font-style:normal;
+	border-top:1px solid #000000;
+	margin:0;
+	width:50px;
+	text-align:center;
+	float:right;
+}
+
+
+#zenkit .blogsidebar .commentsLink a {
+    width: 110% !important;
+    display: block;
+}
+
+h2.contentheading.zenkitblog {
+    margin-top: 0px !important
+}
+
+#zenkit.itemView.blog .blogsidebar {
+    margin-top: 20px;
+    padding: 0;
+    background: none;
+    border: 0;
+    width: 100%;
+}
+
+
+#zenkit a.jbReadon {
+    padding-left: 10px !important
+}
+
+/* Zenkit Titles
+-----------------------------------------------------------------------------*/
+
+#zenkit h1.componentheading {
+    float: left;
+}
+
+#zenkit.itemListView h1.componentheading {
+
+}
+
+.itemListCategory {
+
+}
+
+#zenkit .k2FeedIcon a {
+position: absolute;right: 0;margin: 0 !important;
+}
+
+#zenkit.slideshow h1.componentheading,
+#zenkit.common h1.componentheading {
+    margin-top: -107px
+}
+
+#zenkit.common h1.componentheading,
+#zenkit.magazineright h1.componentheading,
+#zenkit.magazineleft h1.componentheading {
+margin-top: -83px;
+}
+
+#zenkit.magazineright.accordion h1.componentheading,
+#zenkit.magazineleft.accordion h1.componentheading {
+    margin-top: -83px 
+}
+
+#zenkit.latestView #breadcrumb-content,
+#zenkit.tagView #breadcrumb-content,
+#zenkit.filter #breadcrumb-content,
+#zenkit.itemListView #breadcrumb-content {
+}
+
+.com_k2.itemlist #midCol #breadcrumb-content {
+}
+
+.k2FeedIcon {position:relative:top:-20px;}
+
+.com_k2 #midCol h2.contentheading {
+    margin-top: 6px;
+    margin-bottom:6px;
+}
+
+#zenkit {
+    margin-top: 0
+}
+
+#zenkit.slideshow {
+    margin-top: 18px
+}
+
+#zenkit.slideshow #k2ItemListLeading {
+    margin-top: 20px
+}
+
+#zenkit #breadcrumb-content {
+    padding-bottom: 18px !important
+}
+
+#zenkit .editlink {
+    position: relative;
+    z-index: 1;
+}
+
+#zenkit ul.simple li {
+    padding: 8px 0
+}
+
+#zenkit ul.simple {
+    margin-bottom: 30px
+}
+
+#zenkit .buttons {
+    width: 100%;
+    position: relative !important;
+    right: auto;
+    font-size: 95%;
+    top: 0;
+    margin-left: 14%;
+}

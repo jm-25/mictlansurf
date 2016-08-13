@@ -1,0 +1,200 @@
+
+
+
+		/*------------------------------------------------------------------
+Template:	JB Intrepid
+Version:	Joomla 1.5 / Joomla 2.5
+Zen Grid:	v2.0
+Copyright:	Joomlabamboo
+Created:	May 2012
+------------------------------------------------------------------*/
+
+
+		body {
+			background-color: #731A10;
+		}
+ 
+		
+
+		#mainwrap,
+		#breadcrumb .icon-home,
+		#bottomrow {
+			color: #333333;
+		}
+		
+		
+		body,
+		#tagline,
+		input[type="button"], 
+		input[type="submit"], 
+		input[type="reset"], 
+		button,
+		.button,
+		.readon:hover,
+		.jbReadon:hover {
+			color: #ffffff; 
+		}
+		
+		a,
+		#logo a b,
+		.sidebar ul li.active li.active a,
+		h1, h2, h3, h4, h5, h6,
+		#togglemenu li span.separator,
+		.jbspan {
+			color: #95A555;
+		}
+		
+		a:hover {
+			color: #731A10;
+		}
+		
+		#searchtoggle:hover {
+			background: #731A10;
+		}
+		
+		#nav ul li a,
+		#nav ul li .separator,
+		#topwrap .menu a,
+		a#zenpanelopen,#logo a,#tagline span{
+			color: #fff;
+		}
+		
+		
+	
+		
+		#nav ul li li.active li a,
+		#nav ul li li.active li .separator{
+			color: #fff;
+		}
+		
+
+		
+		a.jbReadon:hover,
+		.readon:hover,
+		#zenkit a.jbReadon:hover 
+		{
+			background-color: #c9d89b;color: #fff; 
+		}
+
+		input[type="button"], 
+		input[type="submit"], 
+		input[type="reset"], 
+		button,
+		.button,
+		.readon,
+		a.jbReadon,
+		#zenkit a.jbReadon,
+		#bottom .moduleTitle span,
+		.primary2 .jbmoduleBody,
+		.zenpages a,
+		#zenkit ul.zentabs li.active a,
+		#zenkit ul.zentabs li a.active, 
+		.primaryTitle {
+			background-color: #95A555;color: #ffffff !important; 
+		}
+		
+		.primary2 .jbmoduleBody{padding:10px;}
+		.primary2 ul li {border:none !important}
+		.primary2, .primary2 a, .primary2 span {color:#ffffff !important;}
+		.primary2 a:hover {color:#dddddd;}
+		
+		input[type="button"]:hover, 
+		input[type="submit"]:hover, 
+		input[type="reset"]:hover, 
+		button:hover,
+		.button:hover,
+		.readon,
+		#zenkit a.jbReadon span span,
+		.jbReadon span span,
+		.zenpages a:hover
+		{
+			background-color: #89985b;color: #fff; 
+		}
+		
+		
+		
+
+/* Module Colours
+-----------------------------------------------------------------------------*/	
+		.sidebar h3 {color: #333}
+		
+		.primary1 h3,
+		.zentools.slideshow .slidenavdiscs li,
+		.zentools.grid.nomargin .zentitle {background: #731A10;color: #fff}
+		.zentools.grid.nomargin .zentitle a {color: #fff !important;}
+		
+		.secondary1 h3,
+		.zentools.slideshow .slidenavdiscs li:hover,
+		.zentools.slideshow .slidenavdiscs li.active,
+		.primary1 .zentools.grid.nomargin .zenitem2 .zentitle,
+		.primary1 .zentools.grid.nomargin .zenitem4 .zentitle,
+		.primary1 .zentools.grid.nomargin .zenitem6 .zentitle,
+		.primary1 .zentools.grid.nomargin .zenitem8 .zentitle,
+		#jbSplitMenuLeft h3,
+		#jbSplitMenuRight h3,
+		h3.catItemTitle, 
+		h3.catItemTitle a, {background: #95A555;color: #fff}
+		
+		.primary2 h3 {background: none;color: #333}
+		.primary2 .jbmoduleBody {background: #731A10}
+		
+		.secondary2 h3 {background: none;color: #333}
+		.secondary2 .jbmoduleBody {background:#95A555;color: #fff;}
+		
+		
+		.moduletable-nopadding h3,.moduletable.nopadding h3 {background:#333;color: #fff;}
+		.moduletable.nopadding.primary1 h3,.moduletable.nopadding.primary1 h3 {background:#731A10}
+		.moduletable.nopadding.secondary1 h3,.moduletable.nopadding.secondary1 h3 {background:#95A555}
+		
+		
+/* Pagination colours
+-----------------------------------------------------------------------------*/	
+		.zenpages a {background: #95A555 !important}
+		.zenpages a.jp-current {background: #333 !important}
+		.zenpages a:hover {background: #666 !important}
+
+
+
+/* Button, Read more and Input colours
+-----------------------------------------------------------------------------*/	
+		input[type="button"]:hover, 
+		input[type="submit"]:hover, 
+		input[type="reset"]:hover, 
+		button:hover,
+		.button:hover,
+		.readon:hover,
+		.jbReadon:hover{
+			color: #710E16;
+		}
+		
+
+		input[type="button"], 
+		input[type="submit"], 
+		input[type="reset"], 
+		button,
+		.button,
+		.readon,
+		.jbReadon,
+		ul.jbtabs li.active a,
+		#midCol h1.componentheading span,
+		#midCol h1.componentheading span,
+		#footertitle h3 span,
+		#searchCol.searchoverlay,
+		#navwrap.sticky  {
+			border-color: #95A555;
+		}
+
+		input[type="button"]:hover, 
+		input[type="submit"]:hover, 
+		input[type="reset"]:hover, 
+		button:hover,
+		.button:hover,
+		.readon:hover,
+		.jbReadon:hover,
+		#zenkit .zenbutton input:hover, 
+		#zenkit .zenbutton span a:hover,
+		table.adminform button:hover {
+			border-color: #89985b;
+			color: #fff;
+		}
+		

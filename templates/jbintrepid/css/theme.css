@@ -1,0 +1,2765 @@
+/* @override http://localhost:8888/dev/intrepid/templates/jbintrepid/css/theme.css */
+
+/*------------------------------------------------------------------
+Template:	JB Intrepid
+Version:	Joomla 1.5 / Joomla 2.5
+Zen Grid:	v2.0
+Copyright:	Joomlabamboo
+Created:	May 2012
+------------------------------------------------------------------*/
+
+/* Body and Outer Wrapper
+-----------------------------------------------------------------------------*/
+
+body {
+    position: relative
+}
+
+/* Bevel Styles
+-----------------------------------------------------------------------------*/
+
+.container {
+    padding: 20px 0
+}
+
+.row {
+    width: 100%
+}
+
+/* Bevel Styles
+-----------------------------------------------------------------------------*/
+
+#breadcrumb-content.nometa,
+div.jbMeta,
+.zendivider,
+#bottomrow ul li,
+#zenkit .divider,
+.groupLeading,
+#zenkit .zenblock,
+#zenkit .userItemView,
+#zenkit .userBlock,
+#zenkit .latestItemView,
+#zenkit .latestItemsUser,
+#zenkit .categoryinner,
+#zenkit .tagItemView,
+#zenkit .groupPrimary,
+.results ol li {
+    background: url(../images/bevel.png) repeat-x left bottom
+}
+
+
+#search #mod_search_searchword {
+    background-image: url(../images/sprite.png);
+}
+
+.leading-0 .zendivider {
+    background: none
+}
+
+#zenkit .userItemView,
+#zenkit .userBlock,
+#zenkit .latestItemView,
+#zenkit .latestItemsUser,
+#zenkit .categoryinner,
+#zenkit .tagItemView,
+#zenkit .groupPrimary {
+    background-color: transparent;
+    padding: 0px 4% 30px 4%;
+    margin-left: -4%;
+    width: 100%;
+    border: 0;
+}
+
+/* Shadow
+-----------------------------------------------------------------------------*/
+
+#shadow {
+    float: left;
+    width: 100%;
+}
+
+#shadowinner {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.ie7 #shadowinner,
+.ie8 #shadowinner {
+    -webkit-box-shadow: 0px 0px 6px 2px #aaa;
+    box-shadow: 0px 0px 6px 2px #aaa;
+}
+
+#shadowinner.container {
+    padding: 0;
+    margin: -5px auto 60px;
+}
+
+/* Top Row - For top1 to top4 positions
+-----------------------------------------------------------------------------*/
+
+#topwrap {
+    padding: 4px 0;
+    line-height: 1;
+}
+
+#topwrap .container {
+    padding: 10px 0 6px;
+    font-size: 1em;
+    margin-top: 0;
+}
+
+#top1 ul {
+    margin: 10px 0 0 0
+}
+
+#top4 ul {
+    float: right;
+    margin: 0;
+}
+
+.ie7 #top4 .moduletable {
+    float: right;
+    display: inline;
+    width: 135px;
+}
+
+#topwrap ul li {
+    list-style: none;
+    margin: 0;
+    float: left;
+    border-right: 1px solid #FFFFFF;
+    padding: 0 15px;
+    line-height: 1;
+}
+
+#topwrap .lastchild {
+    border-right: 0
+}
+
+#top4.panel .lastchild {
+    border-right: 1px solid #fff
+}
+
+/* Header and Logo Row - For when logo is in the header row and for header1 to header4 positions
+-----------------------------------------------------------------------------*/
+
+#headerwrap h2 {
+    margin: 0
+}
+
+/* Logo Div and Tagline
+-----------------------------------------------------------------------------*/
+
+#logowrap {
+    padding: 20px 0
+}
+
+#logowrap .row {
+    padding-bottom: 20px
+}
+
+#logowrap .container {
+    padding: 0
+}
+
+#logo {
+    margin: 10px auto 0
+}
+
+#logo h1,
+#logo h2,
+#logo h3,
+#logo h4 {
+    line-height: 1;
+    margin: 0;
+}
+
+#logo a {
+    color: #fff;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+.ie9 #logo,
+.ie8 #logo,
+.ie7 #logo {
+    zoom: 1;
+    background-color: #cccccc;
+    filter: progid:DXImageTransform.Microsoft.Chroma(Color=#cccccc) progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=185, Color='#888888');
+}
+
+#logo a b {
+    font-weight: normal
+}
+
+#tagline {
+    font-size: 1em;
+    font-style: italic;
+    margin-top: 10px;
+    text-shadow: 1px 1px 0 #333;
+}
+
+#logo a:hover {
+    text-decoration: none
+}
+
+/* Nav row - for the menu position. See below for superfish styling
+-----------------------------------------------------------------------------*/
+
+#navwrap {
+    position: relative;
+    z-index: 3;
+}
+
+#navwrap .inner {
+    padding: 0 0 20px
+}
+
+#navwrap .row {
+    overflow: visible;
+    padding: 10px 0 0;
+}
+
+#navwrap .container {
+    padding: 20px 0 0
+}
+
+#navwrapper {
+    position: relative
+}
+
+#nav {
+    margin: 0
+}
+
+#nav.right {
+    float: right;
+    margin-top:55px;
+}
+
+/* Top level Menu
+-----------------------------------------------------------------------------*/
+
+#nav ul.menu {
+    margin: 25px 0 20px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -pie-border-radius:4px;
+    border-radius:4px;
+    height: 43px;
+    width:auto;
+    float:right;
+}
+
+#nav ul {
+    border-top: 1px solid #111
+}
+
+#nav ul {
+    background: #555555;
+    border:1px solid #666666;
+    
+}
+
+#nav.left ul {
+    float: left;
+    width: 100%;
+}
+
+/* Top menu items rule
+-----------------------------------------------------------------------------*/
+
+#nav ul li a,
+#nav .separator {
+    padding: .75em 15px;
+    display: block;
+    position: relative;
+    z-index: 100;
+    line-height: 2em;
+}
+
+#nav ul li.active span.separator {
+    padding: 11px 8px 8px
+}
+
+#nav ul li.active {
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+    -pie-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+    border-width: 1px;
+    margin-top: -2px;
+    height:45px;
+}
+
+.firefox #nav ul li a,
+.firefox #nav .separator {
+    line-height: 1.8em
+}
+
+.ie9 #nav ul li a,
+.ie9 #nav .separator,
+.ie8 #nav ul li a,
+.ie8 #nav .separator {
+    line-height: 1.7em
+}
+
+.ie8 #nav ul li.active {
+padding-bottom: 4px;
+}
+
+
+#nav ul li {
+    font-size: 1.1em;
+    margin: 0 0 0 0px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    float:right;
+}
+
+#nav ul li a span,
+#nav ul li .separator span {
+    padding: 0;
+    white-space: nowrap;
+}
+
+/* Images in the menu
+-----------------------------------------------------------------------------*/
+
+#nav li img {
+    float: right;
+    margin-right: -15px;
+    margin-top: -11px;
+}
+    
+
+.ie8 #nav li img {
+margin-top: 0;float: none;
+}
+
+.componentheading img {
+display: none;
+}
+
+/* Image for parent menu items
+-----------------------------------------------------------------------------*/
+
+#navwrapper #nav ul li .sf-with-ul,
+#navwrapper #nav ul li span.separator {
+}
+
+/* Sub Level Menu
+-----------------------------------------------------------------------------*/
+
+#nav ul li.active li.active {
+    border-bottom: 0;
+    border-radius: 0;
+    border-width: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -pie-box-shadow: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -pie-border-radius: 0;
+    padding:0;
+    margin:0;
+}
+
+#nav ul.menu ul {
+    margin-top: 11px;
+    margin-left:-1px;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+    -pie-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* Sub Level Menu Items
+-----------------------------------------------------------------------------*/
+
+#nav ul li li {
+    font-size: .75em;
+    margin: 0;
+    padding: 0;
+}
+
+#navwrapper #nav ul li li .sf-with-ul,
+#navwrapper #nav ul li li span.separator {
+    background-position: 95% 50%
+}
+
+#nav ul li.active li a,
+#nav ul li.active li .separator {
+    border-bottom: 0
+}
+
+#nav li.active .separator span {
+    padding: 0 !important
+}
+
+/* Sub Level Menu positioning
+-----------------------------------------------------------------------------*/
+
+#nav ul li:hover > ul,
+#nav ul ul li:hover > ul,
+#nav ul ul li.sfHover > ul {
+    display: block;
+    visibility: visible;
+}
+
+#nav ul li ul {
+    left: 0;
+    top: 35px;
+}
+
+/* Reset submenu active items
+-----------------------------------------------------------------------------*/
+
+#nav ul li.active li a,
+#nav ul li.active li .separator,
+#nav ul li:hover li a,
+#nav ul li:hover li .separator,
+#nav ul li.sfHover li a,
+#nav ul li.sfHover li .separator {
+    margin: 0;
+    padding: 10px;
+}
+
+#nav li.active.lastchild {
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+    -pie-border-radius: 4px 0 0 4px;
+}
+
+#nav li.active.firstchild {
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+    -pie-border-radius: 0 4px 4px 0;
+}
+
+#nav li.firstchild {float:right;}
+
+#nav li.lastchild {float:left;}
+
+#nav ul li li:hover,
+#nav ul li li.sfHover,
+#nav ul li li.active {
+    background-color: #444444;
+}
+
+#nav ul ul li ul {
+    padding-top: 0;
+    left: 100%!important;
+    top: 0!important;
+}
+
+#nav ul ul li:hover > ul,
+#nav ul ul li.sfHover > ul {
+    left: 100%;
+    padding-top: 0;
+    top: 0;
+}
+
+#nav ul li li a,
+#nav ul li li .separator {
+    padding: 7px 15px;
+    line-height: 1.5;
+    border-radius: 0px;
+}
+
+#nav ul li li a span,
+#nav ul li li span.separator span {
+    padding: 0
+}
+
+#nav ul li li li {
+    font-size: 1em
+}
+
+#mobilemenu select {
+    width: 100%;
+    font-size: 1.8em;
+}
+
+/* Centered Nav
+-----------------------------------------------------------------------------*/
+
+#nav.centered li {
+    padding-top: 0 !important
+}
+
+#nav.centered ul {
+    height: 43px !important
+}
+
+/* Sticky Nav
+-----------------------------------------------------------------------------*/
+
+#navwrap.sticky {
+    padding-bottom: 20px;
+    border-top: 0;
+}
+
+#navwrap.sticky,
+#navwrap.sticky #nav ul ul {
+    z-index: 21;
+    background: url(../images/overlay/darkBlackOverlay.png);
+}
+
+#navwrap.sticky #nav  ul {
+    border: 0;
+    background: 0;
+}
+
+#navwrap.sticky #nav li.active {
+    background: #333;
+    border: 1px solid #444;
+    border-radius: 4px;
+}
+
+/* Banner Row - For the banner position
+-----------------------------------------------------------------------------*/
+
+#bannerwrap {
+    position: relative;
+    z-index: 1;
+}
+
+#bannerwrap .row {
+    background-color: #fff
+}
+
+#bannerwrap .container {
+    padding: 0
+}
+
+/* Tabbed Module - Bottom1 to bottom4 modules
+-----------------------------------------------------------------------------*/
+
+.threeLR #tabwrap {
+    margin: -69px -39px 0 -36px
+}
+
+.twoR #tabwrap {
+    margin-left: 0 !important
+}
+
+#midCol.twoL #tabwrap,
+#midCol.twoR #tabwrap {
+    margin: -69px 0 0 -37px
+}
+
+#midCol.twoR #tabwrap {
+    margin: -69px -5.9% 0 0
+}
+
+#tabwrap .row {
+    width: 100%;
+    padding: 20px 0 0;
+}
+
+#mainwrap #tabwrap .container {
+    width: 100%;
+    background-color: transparent;
+}
+
+#jbtabbedArea {
+    float: left;
+    width: 100%;
+    padding-right: 0;
+}
+
+ul.jbtabs {
+    margin-left: 0;
+    position: relative;
+    z-index: 1;
+    border-top: 4px solid #353f45;
+}
+
+#jbtab1,
+#jbtab2,
+#jbtab3,
+#jbtab4 {
+    margin-left: -3%;
+    padding-left: 6% !important;
+    width: 94%;
+    margin-top: 20px;
+}
+
+.jbtab_container .zentools.list ul li {
+    margin-left: -3.8%;
+    width: 103%;
+    padding-left: 3%;
+}
+
+#tabwrap .zenitem {
+    width: 94% !important
+}
+
+ul.jbtabs li {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #545e65;
+    text-align: center;
+    width: 24.8%;
+}
+
+ul.jbtabs li a {
+    border-left: 1px solid #353D43;
+    border-top: 4px solid #353F45;
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.2em;
+    height: 65px;
+    line-height: 65px;
+    margin-top: -4px;
+    padding: 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.twoR ul.jbtabs .firstchild,
+.twoR ul.jbtabs .firstchild a {
+    border-left: 0 none
+}
+
+ul.jbtabs li.active,
+ul.jbtabs li.active a {
+    border-left: 0 none
+}
+
+ul.jbtabs li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.jbtabs li.active a {
+    color: #333;
+    background: #fafafa;
+    position: relative;
+    z-index: 2;
+}
+
+.jbtabwidth1 {
+    float: left;
+    width: 97%;
+    padding-right: 3%;
+    margin-left: 3%;
+}
+
+.jbtabwidth2 .moduletable {
+    float: left;
+    width: 94%;
+    padding: 3%;
+}
+
+.jbtabwidth3 .moduletable {
+    float: left;
+    width: 31%;
+    margin-right: 2%;
+}
+
+.jbtabwidth4 .moduletable {
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+}
+
+/* Grid1 Row - Grid modules 1 to 4
+-----------------------------------------------------------------------------*/
+
+#grid1wrap .allitems.container {
+    border: 0 !important
+}
+
+#grid1wrap .container {
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+#grid4 {
+    margin-left: -3.8% !important;
+    float: left;
+}
+
+#grid4 .moduletable {
+    width: 120%
+}
+
+
+
+#grid4 p {
+    margin: 0
+}
+
+.flexslider img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main Content
+-----------------------------------------------------------------------------*/
+
+#mainwrap {
+    padding-top: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#mainwrap .row {
+    padding: 0;
+    position: relative;
+}
+
+#mainwrap .container {
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+#midCol {
+    padding-top: 0;
+    position: relative;
+    z-index: 2;
+}
+
+/* MidCol Layout Variations
+-----------------------------------------------------------------------------*/
+
+#midCol #mainContent {
+    padding: 20px 0
+}
+
+#midCol.one #mainContent {
+    padding: 20px
+}
+
+#midCol.twoL #mainContent,
+#midCol.threeLC #mainContent {
+    padding: 20px 20px 20px 0;
+    margin-left: -3%;
+}
+
+.ie7 #midCol.twoL #mainContent,
+.ie7 #midCol.threeLC #mainContent {
+    margin-left: -6%;
+    margin-right: 0;
+    padding: 20px;
+}
+
+.ie7 #midCol.twoR #mainContent {
+margin-left: 10px;
+padding-left: 10px;
+padding-right: 0;
+width: 100%;
+}
+
+.ie7 #breadcrumb-content.nometa {
+width: 105%;
+}
+
+.ie7 .com_content #midCol.twoL #mainContent,
+.ie7 .com_content #midCol.threeLC #mainContent {
+    margin-left: -6%;
+    margin-right: 6%;
+    padding: 0;
+}
+
+.ie7 #midCol.twoL #mainContent #jbArticle,
+.ie7 #midCol.threeLC #mainContent #jbArticle {
+    padding: 20px
+}
+
+#midCol.twoR #mainContent,
+#midCol.threeRC #mainContent {
+    padding: 20px 0 20px 20px;
+    margin-right: -3%;
+}
+
+#midCol.threeLR div.jbMeta {
+    margin-left: -8.4%;
+    padding-right: 11%;
+    padding-left: 8.4%;
+    margin-right: 0;
+}
+
+/* Common to left, right and center columns
+-----------------------------------------------------------------------------*/
+
+.sidebar .moduletable,
+.sidebar .moduletable-panelmenu,
+.sidebar .moduletable-slide {
+    margin: 0 0 30px 0;
+    padding: 0;
+    clear: both;
+}
+
+.sidebar li.active {
+    margin: 0 !important
+}
+
+.sidebar ul li li a {
+    text-indent: 10px
+}
+
+.sidebar ul li.active li a {
+    color: #999
+}
+
+.sidebar ul li.active a {
+    padding-bottom: 6px
+}
+
+.sidebar ul li.active li a {
+    padding-bottom: 0px
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+    padding: 4px 0;
+}
+
+.sidebar ul li li:last-child {
+    padding: 8px 0;
+    margin-bottom: 0;
+}
+
+.sidebar ul li.active li a {
+    background: 0;
+    border: 0;
+}
+
+.sidebar ul li.active {
+    margin-bottom: 10px
+}
+
+.sidebar ul li.active li.active {
+    margin-bottom: 0px
+}
+
+/* Search
+-----------------------------------------------------------------------------*/
+
+#search #mod_search_searchword
+{
+    background-attachment: scroll;
+    background-color: transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+#tabwrap ul.jbtabs,
+#search {
+    background: url(../images/gradient.png) repeat-x #333333;
+}
+
+#search,
+ul.jbtabs {
+    margin-bottom: 0;
+    height: 65px;
+}
+
+#search.one #searchCol,
+#search.twoR #searchCol {
+    float: right
+}
+
+#search.one #searchCol .button,
+#search.twoR #searchCol .button {
+    margin: 0
+}
+
+/* Search toggle used on small screens
+-----------------------------------------------------------------------------*/
+
+#searchtoggle,
+#searchtogglemobile {
+    height: 28px;
+    width: 30px;
+    position: absolute;
+    right: 25px;
+    z-index: 10;
+    background:url(../images/magnifier_24.png) no-repeat center !important;
+    margin-top: 16px;
+    border-radius: 4px;
+    display: none;
+    cursor: pointer;
+    background-color: #4c565c;
+    color: #FFFFFF;
+    font-size: 12px;
+    border: 1px solid #353F45;
+}
+
+#searchCol.searchoverlay {
+    position: absolute;
+    z-index: 11;
+    background: #353F45;
+    margin-top: 65px;
+    width: 400px !important;
+    right: 0;
+    padding-bottom: 20px;
+    border-bottom: 4px solid;
+    display: none;
+}
+
+#search #mod_search_searchword {
+    background-color: #4c565c;
+    color: #FFFFFF;
+    font-size: 12px;
+    border: 1px solid #353F45;
+    height: 19px;
+    width: 140px;
+    margin: 15px 10px 0 0;
+    background-position: 5px 10px;
+    padding: 5px 5px 5px 20px;
+}
+
+#search .button {
+    padding: 4px 15px
+}
+
+.ie7 #search .button {
+    width: 72px
+}
+
+/* No Padding
+-----------------------------------------------------------------------------*/
+
+.nopadding h3 {
+    border-radius: 0 !important
+}
+
+/* Slide No Padding
+-----------------------------------------------------------------------------*/
+
+.moduletable-slide.nopadding h3 {
+    width: 85%;
+    display: block;
+    padding: 10px 0 10px 6% !important;
+}
+
+.moduletable-slide.nopadding h3 span {
+    background: url(../images/menu/arrow_up.png) no-repeat left center;
+    padding-left: 30px;
+}
+
+.moduletable-slide.nopadding h3.close span {
+    background: url(../images/menu/arrow_down.png) no-repeat left center
+}
+
+.moduletable-slide.nopadding .moduleTitle {
+    margin: 0;
+    margin-left: -4%;
+}
+
+/* Slide Module Class
+-----------------------------------------------------------------------------*/
+
+.moduletable-slide h3 span {
+    background: url(../images/menu/arrow_up_dark_small.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+.moduletable-slide h3.close span {
+    background: url(../images/menu/arrow_down_dark_small.png) no-repeat left center
+}
+
+.moduletable-slide .jbmoduleBody {
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+.moduletable-panelmenu .jbmoduleBody {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* Right Column Only no padding
+-----------------------------------------------------------------------------*/
+
+#rightCol.twoR .nopadding {
+    margin-left: -12%;
+    margin-top: 0px;
+    width: 124% !important;
+    margin-bottom: 0;
+}
+
+#rightCol.twoR .nopadding .zentools.list li {
+    padding: 10px 0 8px 6% !important;
+    width: 94%;
+}
+
+#rightCol.twoR .moduletable.nopadding h3 {
+    display: block;
+    padding-left: 6%;
+    width: 90%;
+    margin-top: -20px;
+}
+
+#rightCol.twoR .moduletable.nopadding .moduleTitle {
+    margin-bottom: 0
+}
+
+/* Left Column Only no padding
+-----------------------------------------------------------------------------*/
+
+#leftCol.twoL .nopadding {
+    margin-left: 0%;
+    width: 116% !important;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0 !important;
+}
+
+.ie7 #leftCol.twoL .nopadding {
+    margin-left: -3%;
+    width: 119% !important;
+}
+
+#leftCol.twoL .nopadding .zentools.list li {
+    padding: 10px 0 8px 6% !important;
+    width: 94%;
+}
+
+#leftCol.twoL .moduletable.nopadding h3 {
+    display: block;
+    padding-left: 6%;
+    width: 90%;
+    margin-top: -20px;
+    margin-left: -4%;
+}
+
+#leftCol.twoL .moduletable.nopadding .moduleTitle {
+    margin-bottom: 0
+}
+
+/* Grid4 no padding
+-----------------------------------------------------------------------------*/
+
+#grid4 .nopadding {
+    margin-left: -5%;
+    margin-top: 0px;
+    margin-bottom: 0;
+    width: 124%;
+}
+
+#grid4 .nopadding .jbmoduleBody {
+    padding: 0
+}
+
+/* Three Column no padding
+-----------------------------------------------------------------------------*/
+
+#rightCol.threeLR .nopadding {
+    margin-left: -18%;
+    margin-top: -10px;
+    width: 136% !important;
+}
+
+#rightCol.threeLR .nopadding .zentools.list li {
+    padding: 10px 0 8px 6% !important;
+    width: 94%;
+}
+
+#rightCol.threeLR .moduletable.nopadding h3 {
+    display: block;
+    padding-left: 6%;
+    width: 90%;
+    margin-top: -20px;
+}
+
+#rightCol.threeLR .moduletable.nopadding .moduleTitle {
+    margin-bottom: 0
+}
+
+#leftCol.threeLR .nopadding {
+    margin-left: -6%;
+    margin-top: -10px;
+    width: 136% !important;
+}
+
+#leftCol.threeLR .nopadding .zentools.list li {
+    padding: 10px 0 8px 6% !important;
+    width: 94%;
+}
+
+#leftCol.threeLR .moduletable.nopadding h3 {
+    display: block;
+    padding-left: 6%;
+    width: 90%;
+    margin-top: -20px;
+    margin-left: -4%;
+}
+
+#leftCol.threeLR .moduletable.nopadding .moduleTitle {
+    margin-bottom: 0
+}
+
+#mainContent.threeLR #jbArticle .contentheading span {
+    margin-left: -38px !important
+}
+
+#main.threeLR .search {
+    float: right
+}
+
+.jbintrotext {
+padding-top: 20px;
+}
+/* Zentools in sidebar
+-----------------------------------------------------------------------------*/
+
+.sidebar .zentools,
+.sidebar .zentools ul,
+.sidebar .zentools.list ul li,
+.sidebar .zentools.list ul li .zenitem,
+.sidebar .zentools.list ul li .zenitem .zeninner {
+    float: none;
+    clear: both;
+}
+
+.sidebar .zentools ul {
+    margin: 0 -20px
+}
+
+#rightCol .sidebar .zentools ul {
+    margin: 0
+}
+
+.sidebar .zentools.list ul li {
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+    border-top: 1px solid #fff;
+    padding: 20px 0;
+    width: 91% !important;
+}
+
+.sidebar .zentools.list .zenitem {
+    width: 94%
+}
+
+.sidebar .zentools.list ul li.firstchild {
+    border-top: 0 none
+}
+
+.sidebar .zentools.list ul li.lastchild {
+    border-bottom: 0 none;
+    padding-bottom: 0;
+}
+
+.sidebar .zentools.list ul li:hover {
+    background-color: #eee
+}
+
+.sidebar .zentools.list ul li .zentext p {
+    margin: 0
+}
+
+.sidebar .zentools.list ul li .zenitem .zeninner .zenlast {
+    clear: right
+}
+
+/* Sidebar 1 column grid
+-----------------------------------------------------------------------------*/
+
+.zentools.grid.nomargin h2,
+.zentools.grid.nomargin .zenimage,
+.zentools.grid.nomargin .zenimage a,
+.zentools.grid.nomargin li {
+    margin-bottom: 0 !important;
+    padding: 0;
+}
+
+.zentools.grid.nomargin .zentitle {
+    background: #333;
+    font-size: 90%;
+    padding: 8px 0 8px 6%;
+}
+
+#jbArticle .zentools.grid.nomargin .zentitle {
+    background: none;
+    color: #333;
+    padding: 4px 0;
+}
+
+#jbArticle .zentools.grid.nomargin .zentitle a {
+    color: #333 !important
+}
+
+#right .nopadding h3 {
+    padding: 12px 8% !important
+}
+
+.zentools a.overlaymore {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    padding: 0;
+    background: #eeeeee;
+    border-radius: 4px;
+    opacity:.8;
+}
+
+.zentools a.overlaymore span {
+    padding: 0;
+    height: 75px;
+    width: auto;
+    background-color: transparent;
+}
+
+.sidebar .zentools li.clear {
+    display: none
+}
+
+.sidebar .zentools.grid.nomargin li {
+    border: 0
+}
+
+/* LeftCol Variations
+-----------------------------------------------------------------------------*/
+
+#leftCol {
+    background-color: #F5F5F5
+}
+
+#left,
+#right {
+    background: #eee;
+    border-left:1px solid #dddddd;
+    padding: 0 20px 0;
+    overflow: hidden;
+}
+
+#left .nopadding .jbmoduleBody,
+#right .nopadding .jbmoduleBody {
+    padding: 0px
+}
+
+#right .moduletable,
+#right .moduletable-slide,
+#right .moduletable-panelmenu,
+#left .moduletable,
+#left .moduletable-slide,
+#left .moduletable-panelmenu {
+    margin-bottom: 30px;
+    margin-top: 0 !important;
+}
+
+#right .moduletable.nopadding,
+#left .moduletable.nopadding {
+    margin-bottom: 0
+}
+
+/* Center Col Variations
+-----------------------------------------------------------------------------*/
+
+#centerCol {
+    padding: 20px 0
+}
+
+/* Above Main Content
+-----------------------------------------------------------------------------*/
+
+#above {
+    border-bottom: 1px solid #ddd
+}
+
+#above .moduleTitle,
+#above .jbmoduleBody {
+    padding: 0 20px
+}
+
+#abovemain {
+    padding: 20px;
+}
+
+/* Advert1 to Advert3
+-----------------------------------------------------------------------------*/
+
+#abovemain {
+    margin-bottom: 30px !important;
+    float: left;
+}
+
+/* Below Main Content
+-----------------------------------------------------------------------------*/
+
+#below {
+    position: relative;
+    background-color: #FFF;
+    border-top: 1px solid #ddd;
+    margin-bottom: -20px;
+    padding: 20px 0px;
+}
+
+#below .moduleTitle,
+#below .jbmoduleBody {
+    padding: 0 20px
+}
+
+/* Breadcrumbs
+-----------------------------------------------------------------------------*/
+
+#breadcrumb {
+    margin: 0;
+    width: 98%;
+    padding: 0;
+    font-size: 90%;
+    border-bottom: 1px solid #ddd;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 2%;
+}
+
+#breadcrumb img,
+#breadcrumb-content img {
+    display: none
+}
+
+#breadcrumb span.breadsep img,
+#breadcrumb-content span.breadsep {
+    display: inline
+}
+
+#breadcrumb-content span.breadsep img {
+    display: inline
+}
+
+#breadcrumb .moduletable {
+
+}
+
+.pathway img {
+    margin: 0px 2px 0
+}
+
+span.breadcrumbs.pathway {
+    padding: 0 20px;
+    font-style: italic;
+    font-size: 90%;
+}
+
+/* Breadcrumb in content
+-----------------------------------------------------------------------------*/
+
+#breadcrumb-content {
+    clear: both;
+    padding: 0 10px 14px !important;
+    margin: -20px 0 20px -4%;
+    float: left;
+    width: 104%;
+    color: #999;
+    text-transform: 1px 1px 0 #fff;
+}
+
+#breadcrumb-content.nometa {
+    padding: 20px 10px 11px 0;
+    width: 107%;
+}
+
+body.onward #breadcrumb-content.nometa {
+    line-height: 2
+}
+
+#breadcrumb-content span {
+    padding: 0 15px
+}
+
+#breadcrumb-content span span {
+    padding: 0
+}
+
+#breadcrumb-content .breadsep {
+    padding: 0 5px
+}
+
+#midCol .blog #breadcrumb-content {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+
+#midCol.threeLR .blog #breadcrumb-content {
+    margin-top: -20px;
+    margin-left: -8.4%;
+    padding-right: 10%;
+}
+
+
+
+#mainContent.threeLR #breadcrumb-content.nometa {
+    margin-left: -10%;
+    width: 120%;
+}
+
+/* Bottom Row - Bottom1 to bottom4 modules
+-----------------------------------------------------------------------------*/
+
+#bottomrow .container {
+    padding: 0
+}
+
+#grid1wrap .container,
+#grid2wrap .container,
+#grid3wrap .container,
+#grid4wrap .container,
+#grid5wrap .container,
+#grid6wrap .container,
+#footertitle {
+    background: #333333 url(../images/silvergradient.png) repeat-x left bottom;
+    padding: 20px 3%;
+    width: 94.2%;
+    color: #333;
+}
+
+#grid1wrap .container {
+    width: 100%;
+    padding: 0;
+}
+
+#bottomrow .row {
+    background: #fafafa;
+    position: relative;
+    z-index: 1;
+}
+
+#bottom {
+    padding: 30px 0;
+    float: left;
+    width: 94%;
+    margin-left: 3%;
+}
+
+#footerwrap .row {
+    background-color: #212121
+}
+
+#bottomrow,
+#bottomrow a,
+#bottomrow h3,
+#bottomrow strong {
+    color: #333
+}
+
+#bottomrow a:hover img {opacity:.6;text-decoration:none;}
+
+#bottomrow .zenlast .moduletable {
+    padding: 0 20px 0 0
+}
+
+#bottomrow h3 {
+    font-size: 1.2em
+}
+
+#bottomrow h3 span, .primaryTitle {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -pie-border-radius: 3px;
+    padding: 6px 12px;
+    position: relative;
+    background: #fff;
+}
+
+#bottomrow ul {
+    margin: 0;
+    list-style: none;
+}
+
+#bottomrow ul li {
+    padding: 4px 0;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #fff;
+    clear:both;
+}
+
+#bottomrow ul li img{float:left;margin-right:8px;margin-top:3px;width:40px;}
+
+#bottomrow ul li:first-child {
+    border-top: 0
+}
+
+#bottomrow ul li:last-child {
+    border-bottom: 0
+}
+
+#bottomrow ul li {
+    background: none
+}
+
+#bottom {
+
+}
+
+#bottom1 .moduletable {
+    padding: 0 0 0 20px
+}
+
+/* Footer title - Actually positioned above the footer
+-----------------------------------------------------------------------------*/
+
+#footertitle {
+    padding: 0 0 1px;
+    border: 0;
+    width: 100%;
+    background: url(../images/pattern.png);
+    text-align:center;
+}
+
+#footertitle h3 {
+    line-height: 68px;
+    margin: 0 0 0px;
+}
+
+#footertitle h3 span {
+    padding: 17px 35px 21px !important;
+    border-radius: 0;
+    border-right:3px solid #333333 !important;
+    border-left:3px solid #333333 !important;
+}
+
+/* Footer Row - Footer Position
+-----------------------------------------------------------------------------*/
+
+#footerwrap .row {
+    border-bottom: 4px solid #333;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#footerwrap .container {
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+#footerwrap .inner {
+    border-top: 1px solid #333333
+}
+
+#footer {
+    border-top: 1px solid #434a4e;
+    padding: 20px 0;
+    float: left;
+    width: 100%;
+}
+
+#footer #socialicons {
+    margin-top: 0
+}
+
+#footerLeft {
+    float: left
+}
+
+#footerRight {
+    text-align: right;
+    float: right;
+    padding: 0 20px 0;
+}
+
+#footer ul {
+    margin: 0
+}
+
+#footer ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+}
+
+#footer ul li a {
+    padding: 4px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+#footer ul li a:hover {
+    text-decoration: none;
+    background: #000;
+}
+
+#footer .moduleTitle,
+#footer .jbmoduleBody {
+    padding: 0 20px
+}
+
+/* Hidden Panel - Core often overriden in template overrides
+-----------------------------------------------------------------------------*/
+
+#zenpaneltrigger {
+    margin-top: 0;
+    position: relative;
+    float: right;
+    right: 0;
+}
+
+.ie7 #zenpaneltrigger {
+    display: inline-block;
+    float: right;
+    width: 100px;
+}
+
+#zenoverlay {
+    background: url(../images/panel/blackOverlay.png)
+}
+
+#zenpanel {
+    border: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: none;
+}
+
+#zenpanelInner {
+    background: #fff;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 0 0 12px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 0 12px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 0 12px rgba(0, 0, 0, .1);
+    padding: 0;
+}
+
+#zenpanel .jbmoduleBody {
+    padding: 20px
+}
+
+#zenpanel label,
+#zenpanel {
+    color: #333
+}
+
+a#zenpanelopen,
+a#zenpanelclose {
+    font-size: 1em;
+    text-align: center;
+    padding: 0 0 6px 15px;
+    display: block;
+    width: 90px;
+    margin: 0;
+    line-height: 1;
+    float: right;
+}
+
+a#zenpanelopen:hover {
+    text-decoration: none
+}
+
+a#zenpanelclose {
+    display: none
+}
+
+#panel1,
+#panel2,
+#panel3,
+#panel4 {
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: 8px solid #eee;
+}
+
+#panel1.zenlast,
+#panel2.zenlast,
+#panel3.zenlast,
+#panel4.zenlast {
+    border: 0
+}
+
+a#zenpanelclose2 {
+    position: absolute;
+    z-index: 10;
+    text-indent: -9999em;
+    right: 35px;
+    height: 40px;
+    width: 40px;
+    top: 8px;
+    background: url(../images/panel/panelClose.png) no-repeat;
+}
+
+#zenpanel h3 {
+    background: url(../images/gradient.png) repeat-x left top;
+    color: #fff;
+    padding: 10px;
+    line-height: 2em;
+}
+
+#zenpanel h3 span {
+    background: #fff;
+    color: #333;
+    padding: 16px 20px;
+    margin-left: -10px;
+    border-top: 4px solid;
+}
+
+#zenpanel .button {
+    float: right
+}
+
+#zenpanel ul {
+    margin: 0
+}
+
+#zenpanel ul li {
+    list-style-type: none;
+    border-bottom: 1px solid #eee;
+    padding: 4px 0;
+}
+
+/* Social Icons
+-----------------------------------------------------------------------------*/
+
+#socialicons a {
+    border-radius: 150px;
+    display: block;
+    margin: 0;
+    padding: 5px 10px;
+    background:none repeat scroll 0 0 #9F9324;
+    -moz-border-radius:3px 0 0 3px;
+    -webkit-border-radius:3px 0 0 3px;
+    -pie-border-radius:3px 0 0 3px;
+    border-radius:3px 0 0 3px;
+}
+
+#socialicons a:hover {padding-right:20px;opacity:1}
+
+#socialicons li {
+    border: 0 !important
+}
+
+/* Search
+-----------------------------------------------------------------------------*/
+
+#search {
+    color: #fff
+}
+
+#search .inputbox,
+#search_searchword {
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin: 4px 0;
+    border: 1px solid #c8c8c8;
+    font-size: 13px;
+    color: #333333;
+    padding-bottom: 0;
+    margin: 0 20px;
+}
+
+#searchForm .button {
+    margin-top: 8px
+}
+
+#search .moduleTitle,
+#search .jbmoduleBody {
+    padding: 0 20px
+}
+
+#search .float-right .moduletable,
+#midCol.one #search .moduletable {
+    float: right
+}
+
+.results ol {
+    margin: 0 0 0 -3%;
+    list-style-position: inside;
+    margin-bottom: 30px;
+}
+
+.results ol li {
+    padding: 20px 0;
+    padding-left: 4.2%;
+    padding-right: 4%;
+    width: 95%;
+    margin: 0;
+    background-color: transparent;
+}
+
+.results ol li:first-child {
+    border-top: 0
+}
+
+.results p {
+    color: #999;
+    font-size: 90%;
+    margin: 0 0 4px;
+}
+
+/* Zentools
+-----------------------------------------------------------------------------*/
+
+.fullwrap .zenborder img,
+.fullwrap .zenborder .zenvideo {
+    border: 2px solid #ccc;
+    padding: 0;
+    max-width: 96%;
+}
+
+.fullwrap .zentools.nomargin .zenlast {
+    float: right
+}
+
+#mainContent .zentools ul li {
+    margin: 0 3.8% 30px 0 !important
+}
+
+#mainContent .zentools ul li.zenlast {
+    margin: 0 !important
+}
+
+#mainContent .zentools.carousel ul li {
+    margin: 0 0 30px 0 !important
+}
+
+.fullwrap .zentools.nomargin .grid_six,
+.fullwrap .zentools.nomargin .grid_2 {
+    width: 49%
+}
+
+.fullwrap .zenimage,
+.fullwrap .zenvideo {
+    float: none
+}
+
+/* Zentools Slideshow
+-----------------------------------------------------------------------------*/
+
+#grid1wrap .zentools.slideshow .slide-controller {
+    position: absolute;
+    bottom: 4%;
+    left: 5%;
+    padding: 0 !important;
+}
+
+#grid1wrap .zentools .slide-controller span {
+    display: none
+}
+
+#grid1wrap .zentools.slideshow .allitems.container {
+    bottom: 40px;
+    left: 4%;
+    background: url(../images/overlay/blackOverlay.png);
+    width: 30%;
+    border-radius: 4px;
+}
+
+#grid1wrap .zentools.slideshow .zentitle,
+#grid1wrap .zentools.slideshow .zentext {
+    float: left;
+    padding: 8px 10px;
+}
+
+#grid1wrap .zentools.slideshow .zentitle h2 {
+    margin: 0
+}
+
+#grid1wrap .zentools.slideshow .zenmore {
+    margin-top: 3%;
+    float: right;
+    margin-right: 3%;
+}
+
+#grid1wrap .zentools.slideshow .slidenavdiscs li {
+    border-radius: 12px;
+    padding: 6px !important;
+}
+
+.slideshowoverlay .allitems,
+.slideshowoverlayFrame .allitems {
+    background: rgba(0,0,0,.4)!important;
+    padding: 10px 4%!important;
+}
+
+/* Zentools Slideshow
+-----------------------------------------------------------------------------*/
+
+.zentools.slideshow ul.flex-direction-nav li a {
+    float: left;
+    margin: 0;
+}
+
+/* Zentools list
+-----------------------------------------------------------------------------*/
+
+.sidebar .zentools.list ul li:first-child {
+    padding-top: 0
+}
+
+#tabwrap .zentools.list ul li {
+    float: left;
+    background: url(../images/silvergradient.png) left bottom repeat-x;
+    border-bottom: 0;
+    width: 106%;
+    padding: 20px;
+}
+
+/* Typography
+-----------------------------------------------------------------------------*/
+
+a {
+    color: #333
+}
+
+blockquote {
+    padding-left: 50px!important;
+    margin: 0px 0;
+    background: url(../images/quote.png) no-repeat left top !important;
+}
+
+blockquote p {
+    padding-right: 50px;
+    background: url(../images/quoteRight.png) no-repeat right bottom !important;
+}
+
+/* Headings */
+
+h1,
+.componentheading {
+
+}
+
+h2,
+.contentheading,
+h2 a {
+    clear: both
+}
+
+#midCol h2.contentheading {
+    font-size: 1.8em;
+    padding: 0;
+    background: none;
+    border: 0;
+    margin: 0;
+    float: left;
+}
+
+#midCol .grid_3 h2.contentheading,
+#midCol .grid_4 h2.contentheading {
+    font-size: 1.5em
+}
+
+.contentheading {
+    margin-bottom: 0.67em
+}
+
+strong {
+    color: #666
+}
+
+#midCol h2.contentheading span,
+.com_content #midCol h1.componentheading,
+.com_content h1.contentheading {
+    line-height: 2.85em;
+}
+
+
+
+.ie7 .com_content #midCol h1.componentheading {
+    margin: -69px 0 0px -38px;
+    line-height: 2.55em;
+}
+
+.contentdescription {
+    clear: both;
+    padding: 10px 0;
+}
+
+
+
+/* Split Menu Spacing
+-----------------------------------------------------------------------------*/
+
+#jbSplitMenuLeft,
+#jbSplitMenuRight {
+    padding-top: 0;
+    margin-bottom: 30px;
+}
+
+#jbSplitMenuLeft ul li,
+#jbSplitMenuRight ul li {
+    text-indent: 6px
+}
+
+#subnav {
+    font-size: 85%;
+    padding-bottom: 8px;
+}
+
+#subnav ul li a {
+    padding: 4px;
+    margin: 0 15px;
+}
+
+#subnav span.separator span {
+    padding: 4px
+}
+
+#jbSplitMenuAbove {
+    padding: 10px 0;
+    background: #fefefe;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+#jbSplitMenuAbove  ul {
+    margin: 0 0 0 10px
+}
+
+#jbSplitMenuAbove  ul li {
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    float: left;
+    font-size: 90%;
+}
+
+#jbSplitMenuAbove ul li#current a {
+    padding: 4px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#jbSplitMenuLeft h3,
+#jbSplitMenuRight h3 {
+    background: #333;
+    width: 115%;
+    float: left;
+    border-radius: 0;
+    margin-left: -12%;
+    padding: 14px 5%;
+    color: #fff;
+    font-size: 110%;
+}
+
+#subnav ul {
+    background: none;
+    height: auto !important;
+    border: 0;
+}
+
+#subnav ul li {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#subnav ul li a {
+    margin: 0
+}
+
+#subnav ul li.active {
+    padding: 0 !important
+}
+
+#subnav ul li.active a {
+    padding: 8px
+}
+
+/* Panel Menu
+-----------------------------------------------------------------------------*/
+
+.moduletable-panelmenu span.separator {
+    cursor: pointer;
+    font-size: 1.1em;
+    padding: 0;
+    display: block;
+}
+
+.sidebar .moduletable-panelmenu span.separator,
+.moduletable-panelmenu span.separator.close {
+    background: url(../images/menu/arrow_down_dark_small.png) no-repeat 0 center;
+    padding-left: 20px;
+}
+
+.moduletable-panelmenu span.separator.close {
+    background: url(../images/menu/arrow_up_dark_small.png) no-repeat 0 center
+}
+
+#togglemenu .moduletable-panelmenu span.separator,
+#togglemenu .moduletable-panelmenu span.separator.close {
+    background: url(../images/menu/arrow_down_small_white.png) no-repeat 0 center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#togglemenu span.separator.open {
+    background: url(../images/menu/arrow_up_light_small.png) no-repeat 0 center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+/* Input Styling
+-----------------------------------------------------------------------------*/
+
+.inputbox,
+input#email {
+    font-size: 13px
+}
+
+input,
+textarea,
+button,
+table.adminform .inputbox {
+    border: 1px solid #ddd;
+    padding: 4px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="file"]::-webkit-file-upload-button,
+button,
+.button,
+.readon,
+.jbReadon {
+    position: relative
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="file"]::-webkit-file-upload-button:hover,
+button:hover,
+.button:hover,
+.readon:hover,
+.jbReadon:hover {
+    cursor: pointer
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto!important;
+    display: inline-block;
+}
+
+.user input {
+ 
+}
+
+.user label {
+    width: 18%
+}
+
+.login-fields input {
+    width: 93%
+}
+
+/* PDF Buttons
+-----------------------------------------------------------------------------*/
+
+div.buttons {
+    float: right;
+    width: 60px;
+    text-align: right;
+}
+
+/* Edit Button
+-----------------------------------------------------------------------------*/
+
+span.hasTip {
+    right: 20px;
+    top: -45px;
+    z-index: 95;
+}
+
+/* JB Meta
+-----------------------------------------------------------------------------*/
+
+div.jbMeta {
+    margin: 0px 0 20px -20px;
+    padding: 16px 21px 16px;
+    float: left;
+    width: 100%;
+    color: #999;
+}
+
+.jbFrontPage .jbMeta,
+.jbSection .jbMeta,
+.jbCategory .jbMeta,
+.zenmeta {
+    background-color: #fafafa !important
+}
+
+.jbSection h2,
+.jbCategory h2,
+.jbFrontPage h2 {
+    clear: both;
+    display: block;
+    width: 100%;
+}
+
+
+#jbArticle .jbMeta {
+    margin-top: -20px;
+    background-color: #fff;
+}
+
+.ie7 #jbArticle div.jbMeta {
+    margin: -20px 0 0 -38px;
+    width: 97%;
+    padding-left: 3%;
+}
+
+.jbIntroText {
+    float: left;
+    width: 100%;
+}
+
+.column1 {
+    clear: both
+}
+
+.cols2 .jbMeta {
+    margin: 0;
+    padding: 0 0 10px;
+    background-color: #fafafa;
+}
+
+.cols3 .jbMeta div,
+.cols4 .jbMeta div {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+
+.cols3 .jbMeta .buttons,
+.cols4 .jbMeta .buttons {
+    float: left;
+    text-align: left;
+}
+
+
+
+/* Section and Categoris
+-----------------------------------------------------------------------------*/
+
+.blog {
+    float: none;
+    clear: both;
+}
+
+div.jbSectCat {
+    font-style: italic;
+    float: left !important;
+    margin-right: 20px;
+    line-height: 1.1;
+}
+
+/* Author and date styling */
+
+div.jbAuthorDate {
+    font-size: 90%;
+    font-style: italic;
+    margin-right: 20px;
+}
+
+span.jbModifydate {
+    font-size: 90%;
+    color: #999;
+    font-style: italic;
+    clear: both;
+    margin-top: 10px;
+    display: block;
+    text-align: right;
+}
+
+span.jbModifydate span {
+    margin-right: 6px
+}
+
+span.jbAuthor {
+    font-size: 90%;
+    line-height: 1.3;
+}
+
+div.jbCreatedate,
+span.jbPublished {
+    font-size: 90%;
+    font-style: italic;
+    float: left;
+    color: #999;
+    margin-right: 20px;
+}
+
+div.jbCreatedate span {
+    margin-right: 6px;
+    line-height: 18px;
+}
+
+/* Read more */
+
+a.jbReadon,
+#zenkit a.jbReadon {
+    float: right;
+    padding: 2px 8px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+
+.readon {
+    text-transform: uppercase;
+    padding: 2px 7px;
+}
+
+.article_separator {
+    display: none
+}
+
+.divider,
+#zenkit .divider {
+    height: 1px;
+    border-top: 1px solid #dedede;
+    background: #fff;
+    margin-left: -3%;
+    width: 103%;
+    padding-right: 3%;
+}
+
+.zenborder img {
+    background: #fff;
+    -moz-box-shadow: 4px 4px 0 #dadada;
+    -webkit-box-shadow: 4px 8px 0 #dadada;
+    box-shadow: 4px 4px 0 #dadada;
+    border: 0!important;
+    max-width: 98%;
+    padding: 0;
+}
+
+.zenblock {
+    padding-left: 30px;
+    height: 2px;
+    float: left;
+    width: 100%;
+}
+
+.sidebar {
+    position: relative;
+    z-index: 2;
+}
+
+#main {
+    float: left;
+    width: 100%;
+    border-bottom: 8px solid #eaeaea;
+}
+
+.sidebar h3 {
+    padding: 4px 8px 6px;
+    display: inline;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -pie-border-radius: 4px;
+}
+
+.sidebar .moduleTitle {
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+
+/* Module Classes
+-----------------------------------------------------------------------------*/
+
+.primary1 .jbmoduleBody,
+.primary2 .jbmoduleBody,
+.secondary2  .jbmoduleBody {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -pie-border-radius: 4px;
+}
+
+.primary1 .moduleTitle h3,
+.primary2 .moduleTitle h3,
+.secondary1 .moduleTitle h3,
+.secondary2 .moduleTitle h3, {
+    margin: 0;
+    padding: 8px 10px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -pie-border-radius:3px;
+    border-radius:3px;
+}
+
+h3.catItemTitle {
+	margin-bottom:8px;
+    padding: 8px 10px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -pie-border-radius:3px;
+    border-radius:3px;
+}
+
+a.jbReadon,
+#zenkit a.jbReadon {
+    padding: 0 0 0 10px;
+    height: 25px;
+    line-height: 2em;
+}
+
+a.jbReadon.mayan,
+#zenkit a.jbReadon.mayan {
+	background:#333333;
+	float:right;
+	-moz-border-radius: 4px 4px 4px 4px !important;
+	border-radius: 4px 4px 4px 4px !important
+	-webkit-border-radius: 4px 4px 4px 4px !important
+	-pie-border-radius: 4px 4px 4px 4px !important
+    background: none repeat scroll 0 0 #333333;
+    margin-left: 8px;
+    padding: 7px 10px 5px !important;
+    position: relative;
+    top: 60px;}
+    
+a.jbReadon.mayan span,
+#zenkit a.jbReadon.mayan span {padding-right:0}
+
+a.jbReadon:hover,
+#zenkit a.jbReadon:hover {
+    text-decoration: none
+}
+
+a.jbReadon span span,
+#zenkit a.jbReadon span span {
+    width: 25px;
+    height: 25px;
+    display: block;
+    padding: 0;
+    float: right;
+}
+
+.zenmore span,
+a.jbReadon span span,
+#zenkit a.jbReadon span span {
+    background-image: url(../images/rightArrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a.jbReadon span,
+#zenkit a.jbReadon span {
+    padding-right: 25px
+}
+
+.zenmore span {
+    height: 20px;
+    width: 10px;
+    display: block;
+    text-indent: -9999em;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    position: relative;
+}
+
+.zentools.list .zenmore span {
+    height: 120px;
+    width: auto;
+}
+
+.slideshow .zenmore span {
+    height: 20px;
+    width: 10px;
+    float: right;
+}
+
+.tool-tip {
+    z-index: 98;
+    color: #333;
+}
+
+.es-carousel ul li {
+    clear: none!important;
+    float: left!important;
+}
+
+.es-nav span.es-nav-next {
+    right: -12px
+}
+
+.zentools.carousel .column {
+    margin-bottom: 0!important
+}
+
+.zeninner,
+.zentools li .zenitem,
+.zentools.accordion {
+    float: none!important
+}
+
+.zentools.slideshow li .zenitem,
+.zentools.slideshow li .zeninner,
+.zentools.slideshow li .zenimage,
+.zentools.slideshow li .zenvideo {
+    float: left!important
+}
+
+/* Grid Fix */
+
+.sixcols_pull {
+    left: -51.8%
+}
+
+/* Target Web-Kit browsers only */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+	#midCol.twoL #tabwrap,
+	#midCol.twoR #tabwrap {
+	    margin: -69px 0 0 -38px
+	}
+
+	#midCol.threeLR #tabwrap {
+	    margin: -69px -42px 0 -38px
+	}
+}
+
+.zendivider {
+    height: 2px;
+    float: left;
+    width: 108%;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-left: -4%;
+}
+
+.sidebar ul li li,
+#togglemenu li li.active {
+    background: url(../images/menu/sidebar.png) no-repeat 16px 17px;
+    padding: 6px 0;
+}
+
+.sidebar ul li li {
+    background-position: left 16px
+}
+
+.bottom0 .jbmoduleBody {margin-bottom:0}
+
+/* Toggle Menu
+-----------------------------------------------------------------------------*/
+
+#togglemenu li li.active {
+    padding-left: 30px
+}
+
+#togglemenu li li.active a {
+    color: #fafafa
+}
+
+/* Login Module
+-----------------------------------------------------------------------------*/
+
+.form-login .remember {
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+.form-login .checkbox.remember {
+    margin: 10px 20px 0 0
+}
+
+.form-login ul {
+    margin: 0;
+    float: left;
+    list-style: none;
+    width: 50%;
+}
+
+.form-login ul li {
+    line-height: 2;
+    border-bottom: 1px solid eee;
+}
+
+.form-login ul li a {
+    display: inline
+}
+
+.sidebar .form-login ul {
+    width: 100%
+}
+
+.sidebar .form-login ul li {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+/* Joomla Pagination
+-----------------------------------------------------------------------------*/
+
+ul.pagination {
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+}
+
+#zenkit ul.pagination li {
+    margin-right: 10px
+}
+
+ul.pagenav {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Map on contact form
+-----------------------------------------------------------------------------*/
+
+#mapcontact #map {
+    border: 4px solid #eee
+}
+
+#mapcontact h3 {
+    font-size: 2em
+}
+
+.contact {
+    padding-bottom: 30px
+}
+
+.contact span.marker img {
+    margin-right: 10px
+}
+
+/* Site Map
+-----------------------------------------------------------------------------*/
+
+.xmap ul li,
+#xmap ul li {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #fff;
+    padding: 4px 0 !important;
+}
+
+.xmap ul li:last-child,
+#xmap ul li:last-child {
+    border-bottom: 0
+}
+
+.xmap ul li:first-child,
+#xmap ul li:first-child {
+    border-top: 0
+}
+
+.xmap ul li li,
+#xmap ul li li {
+    padding-left: 20px !important
+}
+
+/* IE8 Various Fixes
+-----------------------------------------------------------------------------*/
+
+.ie8 img {
+    width: auto; /* ie8 */
+}
+
+img {
+    line-height: 0!important
+}
+
+/* Back to top image
+-----------------------------------------------------------------------------*/
+
+#toTop {
+    background: url(../images/menu/arrow_up.png) no-repeat center top!important;
+    padding-top: 20px !important;
+    width: 30px !important;
+    border: 0 !important;
+    text-align: center;
+    right: 8px;
+}
+
+/* Module Classes
+-----------------------------------------------------------------------------*/
+
+.moduletable-success h3,
+.moduletable-warning h3,
+.moduletable-notice h3,
+.moduletable.border h3 {
+    background: none !important;
+    padding: 0;
+}
+
+.moduletable-success .moduleTitle,
+.moduletable-warning .moduleTitle,
+.moduletable-notice .moduleTitle {
+    margin: 0 0 10px!important;
+    padding: 0;
+}
+
+.moduletable-success .jbmoduleBody,
+.moduletable-notice .jbmoduleBody,
+.moduletable-warning .jbmoduleBody {
+    padding: 0 !important
+}
+
+.moduletable.border .jbmoduleBody {
+    padding: 20px !important
+}
+
+.moduletable.border h3 {
+    padding: 20px
+}
+
+.bottom0 {margin-bottom:0}
+
+/* Hide Mobile Module
+-----------------------------------------------------------------------------*/
+
+#mobilemodule {
+    display: none
+}
+
+/* jTweet in sidebar
+-----------------------------------------------------------------------------*/
+
+.sidebar .jTweet a {
+    display: inline
+}
+
+
+
+
+.contact-image {
+	width: 40%;
+	float: right;
+	margin-top: -20px;
+	position: relative;
+	top: -55px;
+	right: 10px; }
+	
+ul.extraMenu li a {float:right;background:#9F9324;padding:0 !important;text-transform:uppercase;}
+	
+a.extraMenu:hover {color:#fff;text-decoration:none;}

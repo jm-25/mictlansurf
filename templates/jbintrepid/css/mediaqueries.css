@@ -1,0 +1,1225 @@
+/* @override http://localhost:8888/dev/intrepid/templates/jbintrepid/css/mediaqueries.css */
+
+/*------------------------------------------------------------------
+Template:	JB Intrepid
+Version:	Joomla 1.5 / Joomla 2.5
+Zen Grid:	v2.0
+Copyright:	Joomlabamboo
+Created:	May 2012
+------------------------------------------------------------------*/
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+
+@media screen and (max-width: 960px) { 
+	.container {
+	    width: 100% !important
+	}
+
+	#shadowinner.container,
+	#navwrap .container,
+	#topwrap .container,
+	#headerwrap .container,
+	#logowrap .container {
+	    width: 800px !important
+	}
+
+	#grid2wrap .container,
+	#grid3wrap .container,
+	#grid4wrap .container,
+	#grid5wrap .container,
+	#grid6wrap .container {
+	    width: 752px !important
+	}
+
+	.zentools.slideshow .allitems.container {
+	    width: 60% !important
+	}
+
+	#search #mod_search_searchword {
+	    width: 24%
+	}
+
+	#search .button {
+	    padding: 4px 10px
+	}
+
+	#searchCol .inputbox {
+	    width: 125px !important
+	}
+
+	#midCol.twoL #tabwrap,
+	#midCol.twoR #tabwrap {
+	    margin: -69px 0 0 -31px
+	}
+
+	#main #midCol.twoL #tabwrap,
+	#main #midCol.twoR #tabwrap {
+	    margin: -69px 0 0 -30px
+	}
+
+	#main #midCol.threeLR #tabwrap {
+	    margin: -69px -34px 0 -30px
+	}
+
+	.slideshowtabs .slide-controller li img {
+	    width: 56px
+	}
+
+	.zentools.grid.nomargin .grid_six,
+	.zentools.grid.nomargin .grid_2 {
+	    width: 100%;
+	    float: none;
+	}
+
+	.zentools.grid.nomargin .grid_four,
+	.zentools.grid.nomargin .grid_3 {
+	    clear: none
+	}
+
+	.zentools.grid.nomargin .grid_six .grid_seven {
+	    width: 66%;
+	    clear: none;
+	}
+
+	.zentools.grid .zenitem,
+	.zentools.grid .zeninner,
+	.zentools.grid .zentools li .zenitem,
+	.zentools.grid .zentools.accordion {
+	    width: 100%;
+	    float: none;
+	}
+
+	.zentools.grid li.element {
+	    margin: 0 0 20px
+	}
+
+	ul.jbtabs li a {
+	    font-size: 1em
+	}
+
+	.sidebar .zentools.grid.nomargin .zentitle {
+	    width:91%;margin-left: 8px;padding-left: 5%;
+	}
+
+	#pagination {
+	    width: 160px
+	}
+
+	ul.slidenav {
+	    margin-left: -17px !important;
+	    padding-left: 20px;
+	    width: 300px !important;
+	}
+
+	/* Right Column no padding
+		-----------------------------------------------------------------------------*/
+
+	#rightCol.twoR .nopadding {
+	    margin-left: -15%;
+	    margin-top: -10px;
+	    width: 134% !important;
+	}
+
+	#rightCol.twoR .nopadding .zentools.list li {
+	    padding: 10px 0 8px 6% !important;
+	    width: 94%;
+	}
+
+	#rightCol.twoR .moduletable.nopadding h3 {
+	    display: block;
+	    padding-left: 6%;
+	    width: 90%;
+	    margin-top: -20px;
+	    margin-left: 3%;
+	}
+
+	#rightCol.twoR .moduletable.nopadding .moduleTitle {
+	    margin-bottom: 0
+	}
+
+	/* Left Column Only no padding
+		-----------------------------------------------------------------------------*/
+
+	#leftCol.twoL .nopadding {
+	    margin-left: -4%;
+	    margin-top: -10px;
+	    width: 130% !important;
+	}
+
+	#leftCol.twoL .nopadding .zentools.list li {
+	    padding: 10px 0 8px 6% !important;
+	    width: 92%;
+	}
+
+	#leftCol.twoL .moduletable.nopadding h3 {
+	    display: block;
+	    padding-left: 6%;
+	    width: 90%;
+	    margin-top: -20px;
+	    margin-left: -4%;
+	}
+
+	#leftCol.twoL .moduletable.nopadding .moduleTitle {
+	    margin-bottom: 0
+	}
+
+
+
+	/* Three Column no padding
+		-----------------------------------------------------------------------------*/
+
+	#rightCol.threeLR .nopadding {
+	    margin-left: -23%;
+	    margin-top: -10px;
+	    width: 146% !important;
+	}
+
+	#leftCol.threeLR .nopadding {
+	    margin-left: -8%;
+	    margin-top: -10px;
+	    width: 145% !important;
+	}
+
+	#leftCol.threeLR .nopadding .zentools.list li {
+	    padding: 10px 0 8px 6% !important;
+	    width: 94%;
+	}
+
+	#leftCol.threeLR .moduletable.nopadding h3 {
+	    margin-left: -10px
+	}
+
+	#mainContent.threeLR #jbArticle .contentheading span {
+	    margin-left: -30px !important
+	}
+
+	#nav ul.menu {
+	    height: 38px
+	}
+	
+	#nav ul.menu li.active{
+	    height: 40px
+	}
+
+	#nav.centered ul {
+	    height: 37px !important
+	}
+
+	#nav ul li {
+	    margin: 0;
+	    font-size: 94%;
+	    width:32%;
+	    text-align:center;
+	}
+	
+	#nav {width:100%;margin-top:-30px !important;}
+	
+	#nav ul.menu {width:100%}
+
+	#nav ul.menu ul {
+	    margin-top: 0
+	}
+	
+	#nav ul.menu ul {
+    margin-left: 1px !important;
+    margin-top: 5px !important;
+	}
+
+	#jbSplitMenuLeft h3,
+	#jbSplitMenuRight h3 {
+	    margin-left: -15%;
+	    width: 121%;
+	    padding-left: 20px;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media only screen and (min-width: 480px) and (max-width: 800px) { 
+	span.createDate,
+	span.k2Author,
+	.k2Category {
+	    margin-right: 8px
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) { 
+	/* Fix for advert positions with three modules published at low resolutions */
+
+	#abovemain .grid_3,
+	#abovemain .grid_4,
+	#belowmain .grid_3,
+	#belowmain .grid_4 {
+	    width: 100%
+	}
+
+	#zenpanel {
+	    width: 90% !important
+	}
+}
+
+@media only screen and (max-width: 800px) { 
+	#shadowinner.container,
+	#navwrap .container,
+	#topwrap .container,
+	#headerwrap .container,
+	#logowrap .container {
+	    width: 600px !important
+	}
+
+	#grid2wrap .container,
+	#grid3wrap .container,
+	#grid4wrap .container,
+	#grid5wrap .container,
+	#grid6wrap .container,
+	#belowmain,
+	#abovemain {
+	    width: 564px !important
+	}
+
+	#shadow {
+	    margin-top: 0
+	}
+
+	#abovemain,
+	#belowmain {
+	    margin-left: 4%
+	}
+
+	/* Makes all grid positions 100% in width on small browsers */
+
+	#shadow .grid_one,
+	#navwrap .grid_one,
+	.grid_two,
+	#navwrap .grid_two,
+	.grid_three,
+	#navwrap .grid_three,
+	.grid_four,
+	#navwrap .grid_four,
+	#left,
+	#right,
+	#shadow .grid_five,
+	#navwrap .grid_five,
+	#shadow .grid_six,
+	#navwrap .grid_six,
+	#shadow .grid_seven,
+	#navwrap .grid_seven,
+	#shadow .grid_eight,
+	#navwrap .grid_eight,
+	#shadow .grid_nine,
+	#navwrap .grid_nine,
+	#shadow .grid_ten,
+	#navwrap .grid_ten,
+	#shadow .grid_eleven,
+	#navwrap .grid_eleven,
+	#shadow .grid_twelve,
+	#navwrap .grid_twelve,
+	#shadow .grid_1,
+	#navwrap .grid_1,
+	#shadow .grid_2,
+	#navwrap .grid_2,
+	#shadow .grid_3,
+	#navwrap .grid_3,
+	#shadow .grid_4,
+	#navwrap .grid_4 {
+	    width: 100%;
+	    margin-bottom: 0;
+	    float: none;
+	    clear: both;
+	}
+
+	#midCol.grid_one,
+	#midCol.grid_two,
+	#midCol.grid_three,
+	#midCol.grid_four,
+	#midCol.grid_five,
+	#midCol.grid_six,
+	#midCol.grid_seven,
+	#midCol.grid_eight,
+	#midCol.grid_nine,
+	#midCol.grid_ten,
+	#midCol.grid_eleven,
+	#midCol.grid_twelve {
+	    width: 100%
+	}
+
+	#logo.grid_one,
+	#nav.grid_one,
+	#shadow .slideshowtabs .grid_one,
+	#logo.grid_two,
+	#nav.grid_two,
+	#shadow .slideshowtabs .grid_two,
+	#logo.grid_three,
+	#nav.grid_three,
+	#shadow .slideshowtabs .grid_three,
+	#logo.grid_four,
+	#nav.grid_four,
+	#shadow .slideshowtabs .grid_four,
+	#logo.grid_five,
+	#nav.grid_five,
+	#shadow .slideshowtabs .grid_five,
+	#logo.grid_six,
+	#nav.grid_six,
+	#shadow .slideshowtabs .grid_six,
+	#logo.grid_seven,
+	#nav.grid_seven,
+	#shadow .slideshowtabs .grid_seven,
+	#logo.grid_eight,
+	#nav.grid_eight,
+	#shadow .slideshowtabs .grid_eight,
+	#logo.grid_nine,
+	#nav.grid_nine,
+	#shadow .slideshowtabs .grid_nine,
+	#banner.grid_nine,
+	#logo.grid_ten,
+	#nav.grid_ten,
+	#shadow .slideshowtabs .grid_ten,
+	#logo.grid_eleven,
+	#nav.grid_eleven,
+	#shadow .slideshowtabs .grid_eleven,
+	#logo.grid_twelve,
+	#nav.grid_twelve,
+	.slideshowtabs .grid_twelve {
+	    margin-bottom: 0 !important;
+	    clear: none !important;
+	    float: left;
+	}
+
+	.onecols_push,
+	.twocols_push,
+	.threecols_push,
+	.fourcols_push,
+	.fivecols_push,
+	.sixcols_push,
+	.sevencols_push,
+	.eightcols_push,
+	.ninecols_push,
+	.tencols_push,
+	.elevencols_push {
+	    left: 0
+	}
+
+	.onecols_pull,
+	.twocols_pull,
+	.threecols_pull,
+	.fourcols_pull,
+	.fivecols_pull,
+	.sixcols_pull,
+	.sevencols_pull,
+	.eightcols_pull,
+	.ninecols_pull,
+	.tencols_pull,
+	.elevencols_pull {
+	    left: 0
+	}
+
+	.zentools.slideshow .column,
+	#grid1 {
+	    margin-bottom: 0 !important;
+	    margin-right: 0 !important;
+	}
+
+	#grid4 {
+	    margin-left: 10px!important
+	}
+
+	#grid4 .moduletable,
+	#grid4 .moduletable img {
+	    width: 104%
+	}
+
+	.zentools.slideshow .zenmore {
+	    margin-top: 2%
+	}
+
+	#mainwrap {
+	    margin-top: -1px
+	}
+
+	#search #mod_search_searchword {
+	    width: 250px!important
+	}
+
+	form.search {
+	    width: 100%
+	}
+
+	#nav.right,
+	#nav.right ul {
+	    float: left;
+	    width: 100%;
+	}
+
+	#nav ul ul {
+	    margin-top: -15px !important
+	}
+
+	#nav ul li {
+	    font-size: 100%
+	}
+
+	#nav ul li.active {
+	    margin-top: -1px !important
+	}
+
+	#nav ul.menu {
+	    height: 42px
+	}
+	
+	#nav ul li {
+	    margin: 0;
+	    font-size: 94%;
+	    width:31.55%;
+	    text-align:center;
+	}
+	
+	#nav ul li img {display:none}
+	
+	
+	#nav ul.menu ul {
+    margin-left: 1px !important;
+    margin-top: -10px !important;
+	}
+	
+	#nav ul.menu li.active{
+	    height: 44px;
+	    margin-top:-2px !important;
+	}
+
+	#nav.centered ul {
+	    height: 42px !important
+	}
+
+	#midCol.twoL #tabwrap,
+	#midCol.twoR #tabwrap,
+	#midCol.threeLR #tabwrap {
+	    margin: -69px 0 0
+	}
+
+	#midCol.twoL #mainContent,
+	#midCol.threeLC #mainContent {
+	    margin-left: 4%
+	}
+
+	#midCol #mainContent {
+	    padding: 20px
+	}
+
+	#jbArticle h2.contentheading {
+	    margin-left: -4px
+	}
+
+	#mainContent h1.componentheading span {
+	    margin-left: -4px
+	}
+
+	#bottom {
+	    margin-left: 3%;
+	    width: 94%;
+	}
+
+	#bottom .moduleTitle {
+	    margin-bottom: 30px
+	}
+
+	#footerRight {
+	    width: 100%;
+	    float: left;
+	    text-align: left;
+	}
+
+	#footer img.jbLogo {
+	    margin: 0px 0 20px
+	}
+
+	#nav ul.menu {
+	    margin-top: 20px
+	}
+
+	#nav ul li {
+	    margin: 0 0 0 0 !important
+	}
+
+	#nav ul li ul {
+	    top: 54px
+	}
+
+	#tabwrap {
+	    margin-left: 0
+	}
+
+	#midCol.twoL #tabwrap {
+	    margin-top: 0
+	}
+
+	#tabwrap ul.jbtabs li:first-child {
+	    border: 0
+	}
+
+	#bottom2 .zentools.list .grid_twelve {
+	    margin: 0
+	}
+
+	.slideshowtabs ul.slidenav,
+	.slideshowtabs .slide-controller,
+	.slideshowtabs #pagination {
+	    display: none
+	}
+
+	#left,
+	#right {
+	    border: 0
+	}
+
+	#left .moduletable,
+	#right .moduletable,
+	#left .moduletable-panelmenu,
+	#right .moduletable-panelmenu,
+	#center .moduletable {
+	    margin-left: 4%;
+	    width: 92%;
+	}
+
+	#left .moduletable-panelmenu .jbmoduleBody,
+	#right .moduletable-panelmenu {
+	    padding: 10px 4%;
+	    width: 87% !important;
+	}
+
+	#bottom1 .moduletable,
+	#bottomrow .zenlast .moduletable {
+	    padding: 0
+	}
+
+	#bottomrow .moduleTitle h3 {
+	    margin: 0
+	}
+
+	/* Right Column no padding
+		-----------------------------------------------------------------------------*/
+
+	#rightCol.twoR .nopadding {
+	    margin-left: -7%;
+	    margin-top: -20px;
+	    width: 118% !important;
+	}
+
+	#rightCol.twoR .nopadding .zentools.grid img {
+	    width: 90%
+	}
+
+	#rightCol.twoR .nopadding .zentools.list li {
+	    margin-left: 2% !important
+	}
+
+	/* Left Column no padding
+		-----------------------------------------------------------------------------*/
+
+
+
+	#leftCol.twoL .moduletable.nopadding {
+	    margin-top: -20px;
+	    width: 132% !important;
+	}
+
+	#leftCol.twoL .nopadding .zentools.grid img {
+	    width: 76% !important;margin-left: 24px;
+	}
+
+	#leftCol.twoR .nopadding .zentools.list li {
+	    margin-left: 0% !important
+	}
+
+	#left.twoR .nopadding.moduletable .moduleTitle h3 {
+	    padding-left: 3% !important;
+	    width: 100% !important;
+	    margin-left: 3%;
+	}
+
+	#rightCol.twoR .zentools.grid.nomargin .zentitle {
+	    padding-left: 4%
+	}
+
+	/* Three Column no padding
+		-----------------------------------------------------------------------------*/
+
+	#leftCol.threeLR .moduletable.nopadding {
+	    width: 108% !important;
+	    margin-left: -20px !important;
+	    margin-top: -20px;
+	}
+
+	#leftCol.threeLR .moduletable.nopadding .jbmoduleBody img {
+	    width: 100%
+	}
+
+	#leftCol.threeLR .zentitle {
+	    padding-left: 4%;
+	    width: 96%;
+	}
+
+	#rightCol.threeLR .moduletable.nopadding {
+	    width: 108% !important;
+	    margin-left: -40px !important;
+	    margin-top: -20px;
+	}
+
+	#rightCol.threeLR .moduletable.nopadding .jbmoduleBody img {
+	    width: 100%
+	}
+
+	#rightCol.threeLR .zentitle {
+	    padding-left: 4%;
+	    width: 96%;
+	}
+
+	#mainContent.threeLR #jbArticle .contentheading span {
+	    margin-left: -16px !important
+	}
+
+	#bottomrow .jbmoduleBody,
+	#right .jbmoduleBody,
+	#left .jbmoduleBody {
+	    padding: 0
+	}
+
+	#left .jbmoduleBody ul li,
+	#right .jbmoduleBody ul li,
+	#bottomrow .jbmoduleBody ul li {
+	    padding: 0 20px
+	}
+
+	.sidebar ul li li {
+	    background-position: 20px center
+	}
+
+	#left .jbmoduleBody ul,
+	#right .jbmoduleBody ul,
+	#bottomrow .jbmoduleBody ul {
+	    margin: 0 -20px
+	}
+
+	#left.sidebar,
+	#right.sidebar {
+	    padding: 0
+	}
+
+	.primary1 .moduleTitle h3,
+	.primary2 .moduleTitle h3,
+	.secondary1 .moduleTitle h3,
+	.secondary2 .moduleTitle h3 {
+	    display: block;
+	    border-radius: 0;
+	}
+
+	#main #midCol.twoL #tabwrap,
+	#main #midCol.twoR #tabwrap,
+	#main #midCol.threeLR #tabwrap {
+	    margin: -69px 0 0
+	}
+
+	ul li.lastchild {
+	    background-image: none!important
+	}
+
+	#midCol.twoR #mainContent,
+	#midCol.threeRC #mainContent {
+	    padding: 20px;
+	    margin-right: 0;
+	}
+
+	#bottomrow h3 {
+	    margin-left: 3% !important
+	}
+
+	#bottomrow #footertitle h3 {
+	    margin-left: 0% !important
+	}
+
+	#bottomrow .moduletable {
+	    margin-bottom: 30px
+	}
+
+	#bottomrow ul li {
+	    padding: 4px 4% !important
+	}
+
+	.jbLogo {
+	    margin-top: 20px !important
+	}
+}
+
+/* Fix for tabs dropping onto two lines on small screens */
+
+@media only screen and (min-width: 480px) and (max-width: 800px) { 
+	#bannerwrap .container {
+	    padding-bottom: 0
+	}
+
+	#midCol.twoL #tabwrap,
+	#jbtabbedArea {
+	    width: 100%;
+	    margin-left: 0%;
+	}
+
+	#logoinner {
+	    margin-bottom: 10px !important
+	}
+
+	.zentools.nomargin .grid_one,
+	.zentools.nomargin .grid_two,
+	.zentools.nomargin .grid_three,
+	.zentools.nomargin .grid_four,
+	.zentools.nomargin .grid_five,
+	.zentools.nomargin .grid_six,
+	.zentools.nomargin .grid_seven,
+	.zentools.nomargin .grid_eight,
+	.zentools.nomargin .grid_nine,
+	.zentools.nomargin .grid_ten,
+	.zentools.nomargin .grid_eleven,
+	.zentools.nomargin .grid_twelve {
+	    clear: none;
+	    width: inherit;
+	}
+
+	#mainContent.threeLR #breadcrumb-content.nometa {
+	    margin-left: -5%
+	}
+
+	#searchtoggle {
+	    display: block
+	}
+
+
+	.zentools.list .zenmore span {
+	    height: 20px !important;
+	    width: 10px !important;
+	}
+
+	.firefox #nav ul li a,
+	#nav .separator {
+	    line-height: 2em
+	}
+}
+
+@media only screen and (min-width: 684px) { 
+	#mobilemodule {
+	    display: none !important
+	}
+}
+
+@media only screen and (max-width: 680px) { 
+	/* Special module class to hide some modules on small browsers */
+
+	.moduletable.mobilehide {
+	    display: none
+	}
+
+	#midCol h2.contentheading span,
+	.com_content #midCol h1.componentheading,
+	.com_content h1.contentheading {
+	    margin-left: -20px !important
+	}
+
+	/* CSS for the mobile menu */
+
+	#mobilemenu {
+	    display: block;
+	    padding: 15px 0 10px;
+	}
+
+	#mobilemenu select.inputbox {
+	    width: 70% !important
+	}
+
+	.fullwrap.togglemenu #menuwrap,
+	.fullwrap.selectmenu #menuwrap {
+	    display: none
+	}
+
+	/* Togglemenu */
+
+	#togglemenu {
+	    display: block
+	}
+
+	.fullwrap.togglemenu #navwrap .inner,
+	.fullwrap.togglemenu #navwrap .row,
+	.fullwrap.togglemenu #navwrap .container {
+	    border: 0;
+	    padding: 0;
+	}
+
+	.slideshowtabs .zentools.slideshow ul.slidenav li span {
+	    text-align: center
+	}
+
+	.slideshowtabs .zentools.slideshow ul.slidenav li img {
+	    float: none
+	}
+
+	.slideshowtabs .zentools.slideshow ul.slidenav li span h2 {
+	    display: none
+	}
+
+	.slideshowtabs .zentools.slideshow .zentitle {
+	    font-size: 1.2em
+	}
+
+	#shadowinner.container,
+	#navwrap .container,
+	#topwrap .container,
+	#headerwrap .container,
+	#logowrap .container {
+	    width: 400px !important
+	}
+
+	#grid2wrap .container,
+	#grid3wrap .container,
+	#grid4wrap .container,
+	#grid5wrap .container,
+	#grid6wrap .container {
+	    width: 376px !important
+	}
+
+	#left,
+	#right {
+	    background: none
+	}
+
+	#footertitle h3 span {
+	    width: 83%;
+	    float: left;
+	}
+
+	#midCol.twoL #tabwrap {
+	    margin-top: 0;
+	    margin-left: 0;
+	    width: 100%;
+	}
+
+	.zentools.slideshow .allitems.container {
+	    width: 100% !important;
+	    margin: 0 !important;
+	    left: 0 !important;
+	    border-radius: 0 !important;
+	    bottom: 0 !important;
+	    background:none !important;
+	}
+	
+	.zentools.slideshow .allitems.container .zentitle {
+		background: url(../images/overlay/blackOverlay.png); }
+	
+	.slide-controller {display:none}
+
+	#breadcrumb-content {
+	    padding-left: 13px !important;
+	    margin-left: -6%;
+	}
+
+	#mainContent.threeLR #breadcrumb-content.nometa {
+	    margin-left: -5%
+	}
+
+	#breadcrumb-content span {
+	    padding: 0 6px
+	}
+
+	.jbMeta {
+	    width: 98% !important
+	}
+
+	.cols2,
+	.cols3,
+	.cols4,
+	.cols5,
+	.cols6 {
+	    width: 100%;
+	    margin-bottom: 30px;
+	    float: none;
+	    clear: both;
+	}
+
+	.zentools.grid.nomargin .grid_six .grid_seven {
+	    width: 63%
+	}
+
+	/* Right Column no padding
+		-----------------------------------------------------------------------------*/
+
+	#right .nopadding {
+	    margin-left: -10%;
+	    margin-top: -20px;
+	    width: 134% !important;
+	}
+
+	#right .zentools.grid.nomargin .zentitle {
+	    width: 83%;
+	    padding-left: 4%;
+	}
+
+	#right .nopadding .zentools.grid img {
+	    width: 82%
+	}
+
+	#right .nopadding .zentools.list li {
+	    margin-left: 2% !important
+	}
+
+	/* Left Column no padding
+		-----------------------------------------------------------------------------*/
+
+	#leftCol.twoL {
+	    margin-left: -4px;
+	    width: 120% !important;
+	}
+
+	#left .moduletable.nopadding {
+	    width: 444px !important
+	}
+
+	#leftCol.twoL .nopadding .zentools.grid img {
+	    width: 64% !important;margin-left: 23px;
+	}
+
+	#leftCol.twoL .nopadding .moduleTitle {
+	    width: 78% !important
+	}
+
+	#left .nopadding .zentools.list {
+	    margin-left: 3%
+	}
+
+	#leftCol .nopadding h3 {
+	    margin-left: 5% !important;
+	    padding: 12px 0 12px 8% !important;
+	}
+	
+
+
+	/* Three Column no padding
+		-----------------------------------------------------------------------------*/
+
+	#leftCol.threeLR #left {
+	    width: 404px !important
+	}
+
+	#leftCol.threeLR .moduletable.nopadding {
+	    width: 111% !important;
+	    margin-left: -20px !important;
+	    margin-top: -20px;
+	}
+
+	#rightCol.threeLR .moduletable.nopadding {
+	    width: 112% !important;
+	    margin-left: -40px !important;
+	    margin-top: -20px;
+	}
+
+	/* Resets the push and pull for source ordered content */
+
+	.onecols_pull,
+	.twocols_pull,
+	.threecols_pull,
+	.fourcols_pull,
+	.fivecols_pull,
+	.sixcols_pull,
+	.sevencols_pull,
+	.eightcols_pull,
+	.ninecols_pull,
+	.tencols_pull,
+	.elevencols_pull,
+	.twelvecols_pull,
+	.onecols_push,
+	.twocols_push,
+	.threecols_push,
+	.fourcols_push,
+	.fivecols_push,
+	.sixcols_push,
+	.sevencols_push,
+	.eightcols_push,
+	.ninecols_push,
+	.tencols_push,
+	.elevencols_push,
+	.twelvecols_push {
+	    left: 0
+	}
+
+	.article_column.cols2,
+	.article_column.cols3,
+	.article_column.cols4,
+	.article_column.cols5,
+	.column-1,
+	.column-2,
+	.column-3,
+	.column-4,
+	.column-5 {
+	    float: left;
+	    width: 100% !important;
+	}
+
+	#tabwrap .container {
+	    padding: 0
+	}
+
+	/* Tabs */
+
+	ul.jbtabs {
+	    border: 0;
+	    height: auto;
+	    text-align: center;
+	    font-size: 90%;
+	}
+
+	#zenpanel {
+	    width: 90% !important;
+	    height: auto !important;
+	}
+
+	#bannerwrap .container {
+	    padding: 0
+	}
+
+	#nav {
+	    margin-bottom: 0
+	}
+
+	.jb_left45,
+	.jb_right45 {
+	    width: 100% !important;
+	    margin: 0 !important;
+	    border: 0 !important;
+	    padding: 0 !important;
+	}
+
+	.es-nav span {
+	    top: 35%
+	}
+
+	#togglemenu {
+	    padding-bottom: 0px;
+	    background: #212121;
+	}
+
+	.moduletable-panelmenu {
+	    background: none
+	}
+
+	#togglemenu .moduletable,
+	#togglemenu .moduletable-panelmenu {
+	    padding-bottom: 30px
+	}
+
+	#togglemenu ul li {
+	    border-bottom: 1px solid #111;
+	    border-top: 1px solid #222;
+	    font-size: 100%;
+	}
+
+	#togglemenu ul li:last-child {
+	    border-bottom: 0
+	}
+
+	#togglemenu ul li span.mainlevel,
+	#togglemenu li span.separator {
+	    font-size: 100%
+	}
+
+	#togglemenu ul li li {
+	    padding-left: 20px;
+	    margin: 0;
+	}
+
+	#togglemenutrigger {
+	    font-size: 90%;
+	    background: url(../images/menu/togglemenu.png) no-repeat 0 3px;
+	    padding-left: 20px;
+	    padding-bottom: 10px;
+	    margin-left: 10px;
+	    width: 50%;
+	}
+
+	#togglemenu ul li li {
+	    background: url(../images/arrow.png) no-repeat left center
+	}
+
+	#togglemenu ul li a:hover {
+	    text-decoration: none
+	}
+
+	#togglemenu li img {
+	    margin-right: 6px
+	}
+
+	#togglemenu .moduletable-panelmenu .jbmoduleBody {
+	    background: none;
+	    border: 0;
+	    border-radius: 0;
+	}
+
+	#togglemenucontent ul.menu {
+	    border-radius: 0;
+	    background: none !important;
+	}
+
+	#searchtoggle {
+	    display: none
+	}
+
+	#mobilemodule {
+	    display: none;
+	    width: 100%;
+	    position: absolute;
+	    left: 0;
+	    top: 36px;
+	    margin-left: 0;
+	    background: #212121;
+	    z-index: 120;
+	}
+
+	#mobilemodule .search .inputbox {
+	    color: #fff;
+	    float: left;
+	    width: 74% !important;
+	    font-size: 90%;
+	    margin-top: 5px;
+	}
+
+	#mobilemodule .search {
+	    width: 92%;
+	    float: left;
+	    margin-top: 0px;
+	    padding-bottom: 20px;
+	    padding: 0 4% 20px;
+	}
+
+	#mobilemodule .button {
+	    margin-top: 6px;
+	    padding: 2px 8px;
+	    float: right;
+	}
+
+	#searchtogglemobile {
+	    display: block;
+	    text-indent: -9999em;
+	    right: 20px;
+	    top: -12px;
+	    height: 26px;
+	    width: 26px;
+	    background: none;
+	    border: 0;
+	    z-index: 121;
+	}
+	
+	#nav ul li {width:33%}
+	
+		.zentools.list .zenmore span {
+	    height: 20px !important;
+	    width: 10px !important;
+	}
+	
+	
+	.zentools a.overlaymore {left: 30%}
+	#grid4 a.overlaymore {left: 40%}
+}
+
