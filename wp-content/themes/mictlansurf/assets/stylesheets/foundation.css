@@ -5236,7 +5236,7 @@ select {
   .menu.nested {
     margin-left: 1rem; }
   .menu .active > a {
-    background: #0076de;
+    background: transparent;
     color: #fefefe; }
   .menu.menu-bordered li {
     border: 1px solid none; }
@@ -7935,8 +7935,6 @@ body .top-bar .row:before, body .top-bar .top-nav:before, body .top-bar .row:aft
     line-height: 1; }
   #site-navigation .menu .submenu a {
     color: #00E6FE; }
-  #site-navigation .menu .active > a {
-    background-color: #3c3c3c; }
   #site-navigation .menu > li:not(.menu-text) > a {
     padding: 1rem; }
   #site-navigation .dropdown.menu .submenu {
