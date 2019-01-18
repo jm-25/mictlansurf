@@ -120,7 +120,7 @@ height: auto;
 border: 1px solid transparent; }
 .slick-arrow.slick-hidden {
 display: none; } .slick-loading .slick-list {
-background: #fff url(/wp-content/plugins/vc-custom-addons/inc/scss/ajax-loader.gif) center center no-repeat; }  .slick-prev,
+background: #fff url(https://https://www.mictlansurf.com/wp-content/plugins/vc-custom-addons/inc/scss/ajax-loader.gif) center center no-repeat; }  .slick-prev,
 .slick-next {
 position: absolute;
 display: block;
@@ -632,8 +632,8 @@ top: 5px;
 width: auto;
 z-index: 100000; }  @font-face {
 font-family: 'FontAwesome';
-src: url(/wp-content/themes/mictlansurf/assets/fonts/fontawesome-webfont.eot?v=4.5.0);
-src: url(/wp-content/themes/mictlansurf/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0) format("embedded-opentype"), url(/wp-content/themes/mictlansurf/assets/fonts/fontawesome-webfont.woff2?v=4.5.0) format("woff2"), url(/wp-content/themes/mictlansurf/assets/fonts/fontawesome-webfont.woff?v=4.5.0) format("woff"), url(/wp-content/themes/mictlansurf/assets/fonts/fontawesome-webfont.ttf?v=4.5.0) format("truetype"), url(/wp-content/themes/mictlansurf/assets/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular) format("svg");
+src: url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/fontawesome-webfont.eot?v=4.5.0);
+src: url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0) format("embedded-opentype"), url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/fontawesome-webfont.woff2?v=4.5.0) format("woff2"), url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/fontawesome-webfont.woff?v=4.5.0) format("woff"), url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/fontawesome-webfont.ttf?v=4.5.0) format("truetype"), url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular) format("svg");
 font-weight: normal;
 font-style: normal; }
 .fa {
@@ -7229,7 +7229,7 @@ margin: 2rem 0; }
 [data-whatinput="mouse"] a:focus, button:focus [data-whatinput="touch"] a:focus, button:focus {
 outline: none; }
 #front-hero {
-background: url(/wp-content/themes/mictlansurf/assets/images/demo/hero-bg-foundation-6-small.svg) bottom center;
+background: url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/images/demo/hero-bg-foundation-6-small.svg) bottom center;
 -webkit-background-size: cover;
 background-size: cover;
 background-position: bottom;
@@ -7250,7 +7250,7 @@ content: ' '; }
 clear: both; }
 @media print, screen and (min-width: 40em) {
 #front-hero {
-background: url(/wp-content/themes/mictlansurf/assets/images/demo/hero-bg-foundation-6-large.svg) bottom center;
+background: url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/images/demo/hero-bg-foundation-6-large.svg) bottom center;
 -webkit-background-size: cover;
 background-size: cover;
 background-position: center;
@@ -7774,8 +7774,8 @@ padding-left: 0.9375rem; } }
 #vc-full-width .main-content:last-child:not(:first-child) {
 float: right; }  @font-face {
 font-family: 'star';
-src: url(/plugins/woocommerce/assets/fonts/star.eot);
-src: url(/plugins/woocommerce/assets/fonts/star.eot?#iefix) format("embedded-opentype"), url(/plugins/woocommerce/assets/fonts/star.woff) format("woff"), url(/plugins/woocommerce/assets/fonts/star.ttf) format("truetype"), url(/plugins/woocommerce/assets/fonts/star.svg#star) format("svg");
+src: url(https://https://www.mictlansurf.com/plugins/woocommerce/assets/fonts/star.eot);
+src: url(https://https://www.mictlansurf.com/plugins/woocommerce/assets/fonts/star.eot?#iefix) format("embedded-opentype"), url(https://https://www.mictlansurf.com/plugins/woocommerce/assets/fonts/star.woff) format("woff"), url(https://https://www.mictlansurf.com/plugins/woocommerce/assets/fonts/star.ttf) format("truetype"), url(https://https://www.mictlansurf.com/plugins/woocommerce/assets/fonts/star.svg#star) format("svg");
 font-weight: normal;
 font-style: normal; } .woocommerce table tbody {
 border: none; }
@@ -9020,24 +9020,24 @@ float: right;
 margin-right: 0;
 margin-top: 0; } }   @font-face {
 font-family: 'montserrat';
-src: url(/wp-content/themes/mictlansurf/assets/fonts/montserrat-regular-webfont.woff2) format("woff2"), url(/wp-content/themes/mictlansurf/assets/fonts/montserrat-regular-webfont.woff) format("woff");
+src: url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/montserrat-regular-webfont.woff2) format("woff2"), url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/montserrat-regular-webfont.woff) format("woff");
 font-weight: normal;
 font-style: normal; }
 @font-face {
 font-family: 'montserrat';
-src: url(/wp-content/themes/mictlansurf/assets/fonts/montserrat-semibold-webfont.woff2) format("woff2"), url(/wp-content/themes/mictlansurf/assets/fonts/montserrat-semibold-webfont.woff) format("woff");
+src: url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/montserrat-semibold-webfont.woff2) format("woff2"), url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/montserrat-semibold-webfont.woff) format("woff");
 font-weight: bold;
 font-style: normal; }
 @font-face {
 font-family: 'most_waztedregular';
-src: url(/wp-content/themes/mictlansurf/assets/fonts/mostwasted.eot);
-src: url(/wp-content/themes/mictlansurf/assets/fonts/mostwasted.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/mictlansurf/assets/fonts/mostwasted.woff2) format("woff2"), url(/wp-content/themes/mictlansurf/assets/fonts/mostwasted.woff) format("woff"), url(/wp-content/themes/mictlansurf/assets/fonts/mostwasted.ttf) format("truetype"), url(/wp-content/themes/mictlansurf/assets/fonts/mostwasted.svg#most_waztedregular) format("svg");
+src: url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/mostwasted.eot);
+src: url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/mostwasted.eot?#iefix) format("embedded-opentype"), url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/mostwasted.woff2) format("woff2"), url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/mostwasted.woff) format("woff"), url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/mostwasted.ttf) format("truetype"), url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/mostwasted.svg#most_waztedregular) format("svg");
 font-weight: normal;
 font-style: normal; }
 @font-face {
 font-family: 'most_waztedregular';
-src: url(/wp-content/themes/mictlansurf/assets/fonts/mostwasted.eot);
-src: url(/wp-content/themes/mictlansurf/assets/fonts/mostwasted.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/mictlansurf/assets/fonts/mostwasted.woff2) format("woff2"), url(/wp-content/themes/mictlansurf/assets/fonts/mostwasted.woff) format("woff"), url(/wp-content/themes/mictlansurf/assets/fonts/mostwasted.ttf) format("truetype"), url(/wp-content/themes/mictlansurf/assets/fonts/mostwasted.svg#most_waztedregular) format("svg");
+src: url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/mostwasted.eot);
+src: url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/mostwasted.eot?#iefix) format("embedded-opentype"), url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/mostwasted.woff2) format("woff2"), url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/mostwasted.woff) format("woff"), url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/mostwasted.ttf) format("truetype"), url(https://https://www.mictlansurf.com/wp-content/themes/mictlansurf/assets/fonts/mostwasted.svg#most_waztedregular) format("svg");
 font-weight: bold;
 font-style: normal; }   .dark, #footer-container, #featured-hero, #page-header {
 color: #fefefe; }
