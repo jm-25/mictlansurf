@@ -10195,7 +10195,7 @@ hr.line, hr {
 .bg-purple {
   background-color: #A10EEC !important; }
 
-.full-height, .page-home-page .video-header .big-logo {
+.full-height {
   min-height: 100vh; }
 
 .center-center, .page-home-page .video-header .big-logo {
@@ -10613,6 +10613,7 @@ input[name="_gotcha"] {
     text-shadow: 0 0 9px #000; }
 
 .page-home-page .video-header .big-logo {
+  height: 100%;
   color: #fff;
   text-align: center;
   width: 100%; }
